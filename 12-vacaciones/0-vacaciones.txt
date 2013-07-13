@@ -1,0 +1,11 @@
+Nada mejor que unas buenas vacaciones para renovar energías, volver con nuevas ideas y contagiar entusiasmo al resto. Tenemos un esquema muy generoso:
+
+Vacaciones (semanas)
+  1 2 3 4 5 6 
+1 x x
+2 x x x
+4 x x x x
+6 x x x x x
++8x x x x x x
+
+Podés repartirlas como quieras y tomarte adicionalmente hasta un mes de licencia sin goce de sueldo. Las vacaciones se acumulan hasta el siguiente período vacacional. Avisá con al menos un mes de anticipación para poder coordinar la asignación a los proyectos.
