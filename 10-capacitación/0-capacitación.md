@@ -12,7 +12,7 @@ El presupuesto de capacitación es único y compartido entre todos. Para que ten
 
   * Podés hacer un gasto de capacitación siempre y cuando el total que lleves gastado desde tu ingreso a Manas sea menor a la mediana de los gastos realizados por todos.  
 
-En otras palabras podés hacer un nuevo gasto de capacitación mientras pertenezcas a la mitad de Manas que menos gastó. Si los gastos que llevás acumulados son superiores a la mediana, es decir, si pertenencés a la mitad que más gastó, tenés que esperar a que otros realicen gastos de capacitación para volver a poder realizar un gasto.
+En otras palabras podés hacer un nuevo gasto de capacitación mientras pertenezcas a la mitad de Manas que menos gastó. Si los gastos que llevás acumulados son superiores a la mediana, es decir, si pertenencés a la mitad de Manas que más gastó, tenés que esperar a que otros realicen gastos de capacitación para volver a poder realizar un gasto.
 
 Podés también realizar gastos compartidos con otros interesados, en cuyo caso se le contabiliza a cada parte una porción del gasto total.
 
