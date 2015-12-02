@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](0-prefacio.md)
-* [Manas](manas.md)
+* [Manas](01-manas/manas.md)
    * [El nombre](01-manas/1-el-nombre.md)
    * [Los comienzos](01-manas/2-los-comienzos.md)
    * [24x7](01-manas/3-24x7.md)
