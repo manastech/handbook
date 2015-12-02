@@ -6,7 +6,7 @@
    * [The beginnings](01-manas/2-los-comienzos.md)
    * [24x7](01-manas/3-24x7.md)
    * [The first office](01-manas/4-la-primera-oficina.md)
-* [Meta misión](02-meta-mision/0-meta-mision.md)
+* [Meta-mission](02-meta-mision/0-meta-mision.md)
    * [Altruismo](02-meta-mision/1-altruismo.md)
    * [Excelencia](02-meta-mision/2-excelencia.md)
    * [Transparencia](02-meta-mision/3-transparencia.md)
