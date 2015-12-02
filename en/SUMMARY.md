@@ -13,7 +13,7 @@
    * [Agility](02-meta-mision/4-agilidad.md)
    * [Individualism](02-meta-mision/5-individualismo.md)
    * [Uncertainty](02-meta-mision/6-incertidumbre.md)
-   * [Visión](02-meta-mision/7-vision.md)
+   * [Vision](02-meta-mision/7-vision.md)
 * ¿Por qué me contrataron?
    * [Razones](03-por-que-me-contrataron/1-razones.md)
    * [Expectativas](03-por-que-me-contrataron/2-expectativas.md)
