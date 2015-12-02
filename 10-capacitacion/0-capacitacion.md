@@ -4,7 +4,7 @@ Capacitación
 > spend the first four sharpening the axe."
 > -- <cite>Abraham Lincoln.</cite>
 
-Un Sabio dijo: “la mera continuidad es decadencia”. Queremos que puedas aprender y crecer constantemente y para eso disponemos de un presupuesto de capacitación que se incrementa mensualmente.
+Un Sabio dijo: “la mera continuidad es decadencia”. Queremos que puedas aprender y crecer constantemente y para eso disponemos de un [presupuesto](http://man.as/capacitacion) de capacitación que se incrementa mensualmente.
 
 Podés usar este presupuesto en cualquier tipo de actividad que te ayude a crecer en tu rol dentro de Manas –clases de inglés, conferencias de software, libros o cursos son algunos ejemplos. El único límite para cada gasto lo dicta el sentido común y el total de presupuesto disponible. 
 
