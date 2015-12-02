@@ -1,0 +1,3 @@
+Si bien en general la mayoría de las personas están asignadas a algún proyecto, podés disponer de cualquier miembro de todo el equipo para lo que necesites. No intentes jugar al llanero solitario, si te trabás con algo, tenés dudas o querés una segunda opinión, pedile ayuda a quien te parezca que pueda dártela. Si esa persona no puede ayudarte, seguro va a poder recomendarte a quien sí pueda.
+
+Even though most people are assigned to a particular project, you can make use of anyone in the entire team for whatever you need. Don't try to play the lone ranger, when you get stuck, are in doubt or want a second opinion, ask whoever you think will be able to help you. If they can't, they will surely be able to recommend someone who will.
