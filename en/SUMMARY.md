@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Manas](01-manas/manas.md)
-   * [El nombre](01-manas/1-el-nombre.md)
+   * [The name](01-manas/1-el-nombre.md)
    * [Los comienzos](01-manas/2-los-comienzos.md)
    * [24x7](01-manas/3-24x7.md)
    * [La primera oficina](01-manas/4-la-primera-oficina.md)
