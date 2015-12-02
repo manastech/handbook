@@ -1,0 +1,8 @@
+{
+  "title": "Manas Handbook",
+  "description": "Este texto cumple dos funciones simultáneas y mutuamente retro-alimentadas: es manual de uso por un lado, en cuanto a que explica el funcionamiento de algunos procesos dentro de Manas y es manual de instrucciones por otro, en cuanto a que describe ciertas aspiraciones a las que queremos llegar.",
+  "language": "es",
+  "structure": {
+    "readme": "0-prefacio.txt"
+   }
+}
