@@ -1,2 +1,2 @@
-# ¿Por qué me contrataron?
+# Why was I hired?
 
