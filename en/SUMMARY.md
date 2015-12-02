@@ -9,7 +9,7 @@
 * [Meta-mission](02-meta-mision/0-meta-mision.md)
    * [Altruism](02-meta-mision/1-altruismo.md)
    * [Excellence](02-meta-mision/2-excelencia.md)
-   * [Transparencia](02-meta-mision/3-transparencia.md)
+   * [Transparency](02-meta-mision/3-transparencia.md)
    * [Agilidad](02-meta-mision/4-agilidad.md)
    * [Individualismo](02-meta-mision/5-individualismo.md)
    * [Incertidumbre](02-meta-mision/6-incertidumbre.md)
