@@ -14,7 +14,7 @@
    * [Individualism](02-meta-mision/5-individualismo.md)
    * [Uncertainty](02-meta-mision/6-incertidumbre.md)
    * [Vision](02-meta-mision/7-vision.md)
-* [¿Por qué me contrataron?](03-por-que-me-contrataron/por_que_me_contrataron.md)
+* [Why was I hired?](03-por-que-me-contrataron/por_que_me_contrataron.md)
    * [Razones](03-por-que-me-contrataron/1-razones.md)
    * [Expectativas](03-por-que-me-contrataron/2-expectativas.md)
 * La oficina
