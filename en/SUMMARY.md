@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introduction](0-prefacio.md)
 * [Manas](01-manas/manas.md)
    * [The name](01-manas/1-el-nombre.md)
    * [The beginnings](01-manas/2-los-comienzos.md)
