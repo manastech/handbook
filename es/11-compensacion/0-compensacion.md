@@ -4,4 +4,4 @@ Queremos recompensarte por tu trabajo de la manera más justa posible. En una or
 
 Cómo es esto? En resumen, es bastante simple: cada 6 meses, nos juntamos todos durante un par de días, en donde cada uno se toma un rato para presentarle a los demás un resumen de su trabajo en el último semestre. Terminadas las presentaciones, cada uno se retira tranquilo a un rincón de la oficina y mediante un sistema anónimo, indica cual es el sueldo que considera justo para cada uno de todos sus compañeros. Tu sueldo a partir de ese nuevo semestre pasa a ser el promedio de todos los sueldos indicados por el resto.
 
-Lo sueldos de todos son visibles internamente y tendrás esa información a mano al momento de realizar tus asignaciones. En nuestra experiencia, la transparencia que brinda esta situación resuelve muchos problemas y agrega relativamente poco ruido.
+Los sueldos de todos son visibles internamente y tendrás esa información a mano al momento de realizar tus asignaciones. En nuestra experiencia, la transparencia que brinda esta situación resuelve muchos problemas y agrega relativamente poco ruido.
