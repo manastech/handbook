@@ -17,3 +17,8 @@ Al cabo de la entrevista, tenés que contestar con un “SI CONTRATAR” o un �
 En caso de que tu respuesta sea un “SI”, incluí también el sueldo que recomendás para esa persona. Si te cuesta esa parte, revisá el listado de sueldos y tratá de ajustarlo en relación a otros que considerarías sus pares. No intentes ofrecer menos para luego negociar, la oferta que hacemos es la mejor que podemos hacer y por ende la final; esto se le hace saber al candidato. Tampoco sugieras un sueldo por arriba de lo que considerás correcto simplemente porque tenés ganás de que esa persona se sume. Recordá que los sueldos son visibles internamente y pondrías a esa persona en una situación incómoda si termina por arriba de sus pares. En todo caso, en menos de 6 meses habrá un proceso de reviews y ajustes de sueldo.
 
 Si todos los entrevistadores contestaron SI, se le hace una oferta al candidato con un sueldo equivalente al promedio de lo que cada entrevistador sugirió. Si el candidato acepta, encargá una copia de este manual y dásela en su primer día de trabajo. Felicitaciones, cerraste el loop!
+
+> "Alicia se rió: ‘no tiene sentido intentarlo’, dijo: ‘no se puede creer en cosas imposibles’
+> ‘Yo mas bien diría que es cuestión de practica’ dijo la reina.
+> ‘Cuando yo era joven, practicaba todos los días durante media hora. Muchas veces llegué a creer en seis cosas imposibles antes del desayuno"
+> -- <cite>Carroll, Lewis. A través del espejo y lo que Alicia encontró allí</cite>
