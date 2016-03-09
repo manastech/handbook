@@ -1,4 +1,4 @@
-## Capacitación
+# Capacitación
 
 > "Give me six hours to chop down a tree and I will
 > spend the first four sharpening the axe."
@@ -6,7 +6,7 @@
 
 Un Sabio dijo: “la mera continuidad es decadencia”. Queremos que puedas aprender y crecer constantemente y para eso disponemos de un [presupuesto](http://man.as/capacitacion) de capacitación que se incrementa mensualmente.
 
-Podés usar este presupuesto en cualquier tipo de actividad que te ayude a crecer en tu rol dentro de Manas –clases de inglés, conferencias de software, libros o cursos son algunos ejemplos. El único límite para cada gasto lo dicta el sentido común y el total de presupuesto disponible. 
+Podés usar este presupuesto en cualquier tipo de actividad que te ayude a crecer en tu rol dentro de Manas –clases de inglés, conferencias de software, libros o cursos son algunos ejemplos. El único límite para cada gasto lo dicta el sentido común y el total de presupuesto disponible.
 
 El presupuesto de capacitación es único y compartido entre todos. Para que tengas la mayor libertad sobre cómo usarlo y al mismo tiempo garantizar oportunidades para todos, tenemos una regla muy simple:
 

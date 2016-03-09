@@ -1,3 +1,5 @@
+# Compensación
+
 Queremos recompensarte por tu trabajo de la manera más justa posible. En una organización como la nuestra, no podíamos dejar uno de los puntos más importantes al arbitrio de una sola persona. En Manas tu sueldo no lo determina tu jefe. Tampoco está calculado en base a una encuesta con 182 preguntas en donde tus compañeros te ponen puntajes de 1 a 5.
 
 **Tu sueldo está determinado por todas las personas que trabajan en Manas.**

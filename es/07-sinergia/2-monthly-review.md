@@ -1,1 +1,2 @@
+## Monthly Review
 Una vez al mes, intentamos hacer una presentación grupal en donde alguno de los equipos cuenta en qué estuvo trabajando el último tiempo y presenta el proyecto a los demás, así como los desafíos que encontró y cómo fueron resueltos. La presentación puede tener el formato que quieras, y podés darle el enfoque que más te interese: puede ser sobre las tecnologías que usaste, un algoritmo interesante, un diseño elegante, un problema de interacción bien resuelto, etc.

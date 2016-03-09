@@ -1,3 +1,5 @@
+# Entrevistas
+
 Luego de que ya te hayas asentado y entiendas bien como funcionan las cosas, vas a empezar a sentir la necesidad de compartir Manas con otros. Si tenés ganas, podés ayudar a sumar gente tan fantástica como vos al equipo participando del proceso de entrevistas y contratación.
 
 Como ya te imaginarás a esta altura, es un poco distinto a lo que conocés. Las formas en las que llegan candidatos son las usuales: o nos mandan un email a [job@manas.com.ar](mailto:job@manas.com.ar) o los identificamos nosotros en alguna búsqueda, pero a partir de ahí el resto es bastante distinto. No solemos tener búsquedas activas del tipo “se busca programador semi-senior con tres años y medio de experiencia en java. Conocimientos de UML apreciados”.
