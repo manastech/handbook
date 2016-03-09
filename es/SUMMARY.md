@@ -32,6 +32,7 @@
    * [Lenguajes](06-metodologia/2-lenguajes.md)
 * Sinergia
    * [Charlas de viernes](07-sinergia/1-charlas-de-viernes.md)
+   * [Hackatones](07-sinergia/2-hackatones.md)
    * [Retrospectivas](07-sinergia/3-retrospectivas.md)
    * [Todos para uno](07-sinergia/4-todos-para-uno.md)
 * [After office](08-after-office/0-after-office.md)
