@@ -29,7 +29,8 @@
    * [Corrientes migratorias](05-donde-me-siento/2-corrientes-migratorias.md)
 * [Metodología](06-metodologia/0-metodologia.md)
    * [Duración](06-metodologia/1-duracion.md)
-   * [Lenguajes](06-metodologia/2-lenguajes.md)
+   * [Asignaciones](06-metodologia/2-asignaciones.md)
+   * [Lenguajes](06-metodologia/3-lenguajes.md)
 * Sinergia
    * [Charlas de viernes](07-sinergia/1-charlas-de-viernes.md)
    * [Monthly review](07-sinergia/2-monthly-review.md)
@@ -45,4 +46,3 @@
    * [Conclusión](11-compensacion/3-conclusion.md)
 * [Vacaciones](12-vacaciones/0-vacaciones.md)
 * [Entrevistas](13-entrevistas/0-entrevistas.md)
-
