@@ -32,7 +32,6 @@
    * [Lenguajes](06-metodologia/2-lenguajes.md)
 * Sinergia
    * [Charlas de viernes](07-sinergia/1-charlas-de-viernes.md)
-   * [Monthly review](07-sinergia/2-monthly-review.md)
    * [Retrospectivas](07-sinergia/3-retrospectivas.md)
    * [Todos para uno](07-sinergia/4-todos-para-uno.md)
 * [After office](08-after-office/0-after-office.md)
@@ -45,4 +44,3 @@
    * [Conclusión](11-compensacion/3-conclusion.md)
 * [Vacaciones](12-vacaciones/0-vacaciones.md)
 * [Entrevistas](13-entrevistas/0-entrevistas.md)
-
