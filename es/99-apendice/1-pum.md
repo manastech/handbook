@@ -55,8 +55,8 @@ _Deberían estar disponibles desde el día cero del proyecto, y mantenerse actua
 * Mantener datasets usados para pruebas
 
 #### Documentación
-* Incluir esta misma lista en cada proyecto en un Drive, indicando brevemente cómo se implementa cada item en ese proyecto
-* Usar Google Drive para artefactos y archivos del proyecto. Subirlos a la carpeta compartida de proyectos `Manas.Projects`. No compartir documentos 1:1.
+* Usar Google Drive para documentos y archivos del proyecto, creando una subcarpeta para el proyecto en `Manas.Projects` en [man.as/docs](http://man.as/docs). Evitar compartir documentos 1:1.
+* Incluir esta misma lista para el proyecto en su carpeta de Drive, indicando brevemente cómo se implementa cada item en ese proyecto, a partir del template disponible en `Manas.Projects`.
 
 #### Vault
 * Crear un Vault de 1password para todos los secrets del proyecto y compartirlo via Dropbox con quienes corresponda
@@ -71,7 +71,7 @@ _Checklist de tareas a realizar en distintos momentos del proyecto._
 * Crear repositorio de Invision si corresponde
 * Crear canal de Slack y definir keyword en Brium
 * Crear el vault de 1pass
-* Crear una carpeta para el proyecto en el Drive compartido `Manas.Projects`
+* Crear una carpeta para el proyecto en el Drive compartido [Manas.Projects](http://man.as/docs)
 * Crear en dicha carpeta un documento maestro (usando el template en `Manas.Projects`) que linkee a todos los artifacts del proyecto y actúe como índice
 
 #### Ante el primer deployment
