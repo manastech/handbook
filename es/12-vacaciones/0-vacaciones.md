@@ -14,6 +14,8 @@ Para tomarte vacaciones tenés que hacer dos cosas:
     * Si vas a tomarte una semana desde un lunes 11 al viernes 15, avisá el viernes 1ro.
     * Si vas a tomarte todo Marzo, avisá el último día de Enero.
 
-Solamente es necesario que coordines con tu equipo y avises con anticipación acerca de tus planes si no vas a estar trabajando. Si simplemente querés cambiar de aire pero no necesitás dejar de trabajar, entonces sentite libre de hacerlo desde donde prefieras. Sólo asegurate que no haya en esas fechas ninguna reunión que requiera tu presencia física.
+Solamente es necesario que coordines con tu equipo y avises con anticipación acerca de tus planes si no vas a estar trabajando. Asegurate de cancelar los appointments que tengas en tu calendario para esas fechas, y configurar el vacation responder de tu mail.
+
+Si simplemente querés cambiar de aire pero no necesitás dejar de trabajar, entonces sentite libre de hacerlo desde donde prefieras. Sólo asegurate que no haya en esas fechas ninguna reunión que requiera tu presencia física.
 
 Buen viaje!
