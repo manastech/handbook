@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [Introduction](0-prefacio.md)
 * [Manas](01-manas/manas.md)
    * [The name](01-manas/1-el-nombre.md)
@@ -15,7 +16,7 @@
    * [Uncertainty](02-meta-mision/6-incertidumbre.md)
    * [Vision](02-meta-mision/7-vision.md)
 * [Why was I hired?](03-por-que-me-contrataron/por_que_me_contrataron.md)
-   * [Razones](03-por-que-me-contrataron/1-razones.md)
+   * [Motives](03-por-que-me-contrataron/1-razones.md)
    * [Expectativas](03-por-que-me-contrataron/2-expectativas.md)
 * La oficina
    * [Team rooms](04-la-oficina/1-team-rooms.md)
