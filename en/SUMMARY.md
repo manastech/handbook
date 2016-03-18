@@ -17,7 +17,7 @@
    * [Vision](02-meta-mision/7-vision.md)
 * [Why was I hired?](03-por-que-me-contrataron/por_que_me_contrataron.md)
    * [Motives](03-por-que-me-contrataron/1-razones.md)
-   * [Expectativas](03-por-que-me-contrataron/2-expectativas.md)
+   * [Expectations](03-por-que-me-contrataron/2-expectativas.md)
 * La oficina
    * [Team rooms](04-la-oficina/1-team-rooms.md)
    * [Main room](04-la-oficina/2-main-room.md)
