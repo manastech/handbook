@@ -37,8 +37,6 @@
    * [Retrospectivas](07-sinergia/3-retrospectivas.md)
    * [Todos para uno](07-sinergia/4-todos-para-uno.md)
 * [After office](08-after-office/0-after-office.md)
-* [Start me up](09-start-me-up/0-start-me-up.md)
-   * [Funcionamiento](09-start-me-up/1-funcionamiento.md)
 * [Capacitación](10-capacitacion/0-capacitacion.md)
 * [Compensación](11-compensacion/0-compensacion.md)
    * [Funcionamiento](11-compensacion/1-funcionamiento.md)
@@ -46,4 +44,3 @@
    * [Conclusión](11-compensacion/3-conclusion.md)
 * [Vacaciones](12-vacaciones/0-vacaciones.md)
 * [Entrevistas](13-entrevistas/0-entrevistas.md)
-
