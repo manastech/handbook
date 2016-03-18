@@ -1,1 +1,2 @@
+## Todos para uno
 Si bien en general la mayoría de las personas están asignadas a algún proyecto, podés disponer de cualquier miembro de todo el equipo para lo que necesites. No intentes jugar al llanero solitario, si te trabás con algo, tenés dudas o querés una segunda opinión, pedile ayuda a quien te parezca que pueda dártela. Si esa persona no puede ayudarte, seguro va a poder recomendarte a quien sí pueda.

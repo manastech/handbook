@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Manas](01-manas/manas.md)
+* [Manas](01-manas/0-manas.md)
    * [El nombre](01-manas/1-el-nombre.md)
    * [Los comienzos](01-manas/2-los-comienzos.md)
    * [24x7](01-manas/3-24x7.md)
@@ -14,23 +14,23 @@
    * [Individualismo](02-meta-mision/5-individualismo.md)
    * [Incertidumbre](02-meta-mision/6-incertidumbre.md)
    * [Visión](02-meta-mision/7-vision.md)
-* [¿Por qué me contrataron?](03-por-que-me-contrataron/por_que_me_contrataron.md)
+* [¿Por qué me contrataron?](03-por-que-me-contrataron/0-por-que-me-contrataron.md)
    * [Razones](03-por-que-me-contrataron/1-razones.md)
    * [Expectativas](03-por-que-me-contrataron/2-expectativas.md)
-* La oficina
+* [La oficina](04-la-oficina/0-la-oficina.md)
    * [Team rooms](04-la-oficina/1-team-rooms.md)
    * [Main room](04-la-oficina/2-main-room.md)
    * [Cocina y comedor](04-la-oficina/3-cocina-y-comedor.md)
    * [Paredes](04-la-oficina/4-paredes.md)
    * [Sala de reuniones](04-la-oficina/5-sala-de-reuniones.md)
    * [Bunker](04-la-oficina/6-bunker.md)
-* ¿Dónde me siento?
+* [¿Dónde me siento?](05-donde-me-siento/0-donde-me-siento.md)
    * [¿Es mi escritorio?](05-donde-me-siento/1-es-mi-escritorio.md)
    * [Corrientes migratorias](05-donde-me-siento/2-corrientes-migratorias.md)
 * [Metodología](06-metodologia/0-metodologia.md)
    * [Duración](06-metodologia/1-duracion.md)
    * [Lenguajes](06-metodologia/2-lenguajes.md)
-* Sinergia
+* [Sinergia](07-sinergia/0-sinergia.md)
    * [Charlas de viernes](07-sinergia/1-charlas-de-viernes.md)
    * [Hackatones](07-sinergia/2-hackatones.md)
    * [Retrospectivas](07-sinergia/3-retrospectivas.md)
