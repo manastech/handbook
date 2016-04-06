@@ -46,5 +46,5 @@
 * [Vacaciones](12-vacaciones/0-vacaciones.md)
 * [Entrevistas](13-entrevistas/0-entrevistas.md)
 * Apéndice
-   * [Proceso unificado de Manas](99-apendice/1-pum.md)
+   * [Principios Unificados de Manas](99-apendice/1-pum.md)
    * [Repository rules](99-apendice/2-repository-rules.md)

@@ -1,5 +1,5 @@
 ## PUM!
-El Proceso Unificado de Manas (o PUM!) es un intento de plasmar las buenas prácticas que hemos reunido para el desarrollo de proyectos a lo largo de todos estos años. Al igual que todo lo demás en Manas y en este handbook, no está grabado en piedra y es totalmente dinámico; si tenés una sugerencia sobre cómo mejorar el proceso, enviá un pull request con los cambios.
+El PUM! (Principios Unificados de Manas) es un intento de plasmar las buenas prácticas que hemos reunido para el desarrollo de proyectos a lo largo de todos estos años. Al igual que todo lo demás en Manas y en este handbook, no está grabado en piedra y es totalmente dinámico; si tenés una sugerencia sobre cómo mejorar el proceso, enviá un pull request con los cambios.
 
 El formato del PUM! es una serie de checklists que el lead de un proyecto y los desarrolladores deben verificar en distintas fases de la vida del mismo. Para asegurarnos su incorporación a la cultura de trabajo, nos proponemos recordarnos estos items mutuamente tanto como sea posible.
 
