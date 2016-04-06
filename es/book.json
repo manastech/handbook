@@ -3,6 +3,6 @@
   "description": "This text serves two simultaneous purposes that mutually feedback each other: it is a user manual which explains how some processes work inside Manas and it's also an instruction manual, as it describes certain goals we want to achieve.",
   "language": "en",
   "structure": {
-    "readme": "0-prefacio.md"
+    "readme": "README.md"
    }
 }
