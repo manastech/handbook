@@ -25,6 +25,7 @@ _Deberían estar disponibles desde el día cero del proyecto, y mantenerse actua
 #### Repositorio de diseño
 * Crear un proyecto en InVision (o similar) para subir los diseños.
 * Crear diseños por milestones: luego de diseñar el target final para un major, trabajar con el equipo de diseño para generar los diseños de los pasos intermedios que vayan a ir a producción o ser vistos por audiencias cuya impresión es importante; asociar esas versiones de UX intermedias a los milestones del roadmap y usar como punto de partida el estado actual para no caer en idealismos.
+* Armar un catálogo de idioms de diseño para una aplicación (mostrando cómo filtrar, cómo navegar, cómo se ven los botones, etc), de modo que se pueda usar como fuente cuando un desarrollador necesite agregar una nueva funcionalidad relacionada.
 
 #### Continuous Integration
 * Hacer visible el estado y reforzar el concepto de que es importante mantenerlo andando.
@@ -86,14 +87,17 @@ _Checklist de tareas a realizar en distintos momentos del proyecto._
 * Pensar el _por qué_ del commit y menos en el _qué_ al escribirlo
 * Linkear al issue correspondiente en cada commit
 * Dejar mínima documentación acerca de decisiones de diseño asociadas en el issue, incluyendo hints sobre cómo testearlo
+* Realizar pedidos de diseño dentro del issue en caso de ser necesario
 * Actualizar el CHANGELOG
 * Plasmar cambios que afecten a cualquier otro artifact arriba mencionado
+* Realizar una code review en caso de que la complejidad lo amerite
 
 #### Al cerrar un milestone
 * Taggear según la política establecida
 * Actualizar el roadmap según hayan cambiado los futuros releases
 * Actualizar el CHANGELOG agregando el nuevo milestone
 * Revisar si hay que introducir cambios a cualquier artifact que no se hayan realizado al cerrar el issue correspondiente
+* Realizar una design review con Diseño y QA para evaluar el diseño implementado y revisar usabilidad, en caso de que haya features que lo ameriten
 
 #### Semanalmente
 * Verificar que el presupuesto restante en horas asignado en el keyword de Brium alcance para 1 semana de laburo de todo el equipo por cada dev que lo componga. Ejemplo: si el equipo tiene 6 personas, cuando nos quedan horas para menos de 6 semanas de laburo de todos, tenemos que sacar 1 persona.
