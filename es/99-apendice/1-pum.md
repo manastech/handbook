@@ -14,22 +14,22 @@ _Deberían estar disponibles desde el día cero del proyecto, y mantenerse actua
 
 #### Archivos iniciales del repositorio
 * CHANGELOG.MD: al cerrar cada issue mantener un [changelog](http://keepachangelog.com/), pensada en que un usuario del sistema pueda entender los cambios en cada versión.
-* README.md: Incluir una explicación mínima de qué es el proyecto (recordar que es lo primero que ve alguien al llegar al repositorio), cómo correrlo en modo development, y una descripción mínima de arquitectura
-* LICENSE: especificar licencia del proyecto
+* README.md: Incluir una explicación mínima de qué es el proyecto (recordar que es lo primero que ve alguien al llegar al repositorio), cómo correrlo en modo development, y una descripción mínima de arquitectura.
+* LICENSE: especificar licencia del proyecto.
 
 #### Issue tracker
 * Estados en el ciclo de vida de tickets y cuáles son los action items que implican la transición entre los estados.
 * Milestones: mantener una serie de futuros releases con una noción del objetivo o los epics que incluiría. Puede (y casi que debe) cambiar a medida que avanza el proyecto. Actúa como Roadmap del proyecto.
-* Mantener política de versionado siguiendo las repository rules
+* Mantener política de versionado siguiendo las repository rules.
 
 #### Repositorio de diseño
-* Crear un proyecto en InVision (o similar) para subir los diseños
-* Crear diseños por milestones: Luego de diseñar el target final para un major, laburar con el equipo de diseño para generar los diseños de los pasos intermedios que vayan a ir a producción o ser vistos por audiencias cuya impresión es importante. Asociar esas versiones de UX intermedias a los milestones del roadmap. Usar como punto de partida el estado actual para no caer en idealismos.
+* Crear un proyecto en InVision (o similar) para subir los diseños.
+* Crear diseños por milestones: luego de diseñar el target final para un major, trabajar con el equipo de diseño para generar los diseños de los pasos intermedios que vayan a ir a producción o ser vistos por audiencias cuya impresión es importante; asociar esas versiones de UX intermedias a los milestones del roadmap y usar como punto de partida el estado actual para no caer en idealismos.
 
 #### Continuous Integration
-* Hacer visible el estado y reforzar el concepto de que es importante mantenerlo andando
+* Hacer visible el estado y reforzar el concepto de que es importante mantenerlo andando.
 * Si hay binary artifacts que generar, integrarlos como parte del CI para evitar inconsistencias entre los ambientes de desarrollo.
-* Opciones preferidas: Travis, Circle
+* Opciones preferidas: Travis, Circle.
 
 #### Provisioning & Deployment
 * Script reproducible: una persona sin contexto puede meterse en la documentación, seguir las instrucciones, correr los scripts y tener un entorno andando.
@@ -39,10 +39,10 @@ _Deberían estar disponibles desde el día cero del proyecto, y mantenerse actua
 #### Mantenimiento de servidores
 * Backups scheduleados en todos los servers.
 * Testear restaurabilidad del backup periódicamente.
-* Mantener los secrets del proyecto en un lugar seguro y accesible
-* Mantener un inventario de todos los servers asociados en un doc compartido
-* Monitoring de servidores usando NewRelic
-* Monitoring de todos los servicios corriendo en los servers usando Monit o similar
+* Mantener los secrets del proyecto en un lugar seguro y accesible.
+* Mantener un inventario de todos los servers asociados en un doc compartido.
+* Monitoring de servidores usando NewRelic.
+* Monitoring de todos los servicios corriendo en los servers usando Monit o similar.
 
 #### Entornos
 * Nightly (opcional, ideal para sistemas grandes y complejos)
@@ -51,16 +51,16 @@ _Deberían estar disponibles desde el día cero del proyecto, y mantenerse actua
 * Producción (estable)
 
 #### Testing
-* Listado de casos de prueba
-* Mantener datasets usados para pruebas
+* Listado de casos de prueba.
+* Mantener datasets usados para pruebas.
 
 #### Documentación
 * Usar Google Drive para documentos y archivos del proyecto, creando una subcarpeta para el proyecto en `Manas.Projects` en [man.as/docs](http://man.as/docs). Evitar compartir documentos 1:1.
 * Incluir esta misma lista para el proyecto en su carpeta de Drive, indicando brevemente cómo se implementa cada item en ese proyecto, a partir del template disponible en `Manas.Projects`.
 
 #### Vault
-* Crear un Vault de 1password para todos los secrets del proyecto y compartirlo via Dropbox con quienes corresponda
-* Mantener la clave del vault en un lugar seguro (ej vault personal)
+* Crear un Vault de 1password para todos los secrets del proyecto y compartirlo via Dropbox con quienes corresponda.
+* Mantener la clave del vault en un lugar seguro (ej vault personal).
 
 ### Tareas
 
@@ -83,7 +83,7 @@ _Checklist de tareas a realizar en distintos momentos del proyecto._
 
 #### Al cerrar un issue
 * Respetar el formato de mensaje de commit según las repository rules
-* Pensar el “por qué” del commit y menos en el “qué” al escribirlo
+* Pensar el _por qué_ del commit y menos en el _qué_ al escribirlo
 * Linkear al issue correspondiente en cada commit
 * Dejar mínima documentación acerca de decisiones de diseño asociadas en el issue, incluyendo hints sobre cómo testearlo
 * Actualizar el CHANGELOG
