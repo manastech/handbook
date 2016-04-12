@@ -1,5 +1,8 @@
-Nos gusta mucho la gente multifacética y creemos que la variedad de actividades que cada uno desarrolla aporta una perspectiva interesante a todo lo que hacemos. Tenés ganas de hacer yoga, natación, un curso de origami o japonés? Manas se hace cargo del 50% del costo de cualquier actividad que quieras realizar. Ejemplos aceptables son deportes, idiomas, cursos, etc. Todo tipo de actividades ilícitas o de dudosa moralidad quedan excluidas. Lo ideal es que intentes luego compartir con el resto del equipo un poco de la sabiduría y experiencias que obtengas en tus emprendimientos.
-Te gustaría invitar a todo el equipo a comer a tu restaurant favorito? Sugeriles a Clara y Lu el lugar, que ellas se ocuparán de reservar, coordinar y, por supuesto, pagar la cuenta luego.
+# After office
+
+> "A person’s maturity consists in having found again
+> the seriousness one had as a child, at play"
+> --<cite>Friedrich Nietzsche</cite>
 
 We are all for multifaceted people, and we think that everything we do is subject to a different perspective given by our pastimes. Do you feel like doing yoga, swimming, origami or Japanese? Manas will take care of half the cost of whichever activity you want to take up. Acceptable ideas are sports, languages, courses, etc, anything illegal or immoral is excluded.
 Ideally, you could share a little of the wisdom and experiences you've collected with the rest of the ream.

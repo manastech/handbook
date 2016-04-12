@@ -1,3 +1,2 @@
-Después de unos días quizás notes que hay una puerta muy particular, donde cada tanto se mete alguien y pasa un rato ahí dentro. Podés usar nuestro “Bunker” cuando necesites un rato alejado del resto con cierta privacidad. Si tenés que hacer un llamado, una demo o simplemente pensar un rato tranquilo, sentite libre de usarlo.
-
+## Bunker
 After a few days you may notice a particular door wich, from time to time, someone goes through and spends a while in there. You can use our Bunker any time you need some private time apart from the others. Whether it's a call, a demo, or just a break to relax, feel free to use it.

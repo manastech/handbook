@@ -1,3 +1,2 @@
-Después de cada proyecto, nos hacemos un rato para juntarnos y reflexionar tranquilos sobre qué cosas salieron bien o mal, qué aspectos disfrutamos o sufrimos y qué cosas nos gustaría cambiar la próxima vez. Sentite libre de invitar a tu equipo a hacer una retrospectiva al final de tu proyecto o en cualquier etapa clave donde sea útil mirar hacia atrás y desde arriba.
-
+## Restrospectives
 After each project is over, we sit down to reflect on what went right or wrong, which things we enjoyed or suffered through and what we want to improve upon for next time. Feel free to ask your team for a retrospective when the project is over or after any key event where it might be useful to observe the process from a distance.
