@@ -45,5 +45,5 @@
    * [Reglas](11-compensacion/2-reglas.md)
    * [Conclusión](11-compensacion/3-conclusion.md)
 * [Vacaciones](12-vacaciones/0-vacaciones.md)
-* [Entrevistas](13-entrevistas/0-entrevistas.md)
+* [Interviews](13-entrevistas/0-entrevistas.md)
 
