@@ -18,5 +18,5 @@ If you think the candidate should be hired, then you should include in your resp
 Should everyone agree to hire them, en email with an offer will be sent to the candidate. The offered salary will be the average of everyone's suggestion. If they take it, ask for a copy of this manual and hand it to them on their first day of work. Congratulations, you've now closed the loop!
 
 >"Alice laughed. 'There's no use trying,' she said. 'One can't believe impossible things.'
->I daresay you haven't had much practice,' said the Queen. 'When I was your age, I always did it for half-an-hour a day. Why, sometimes I've believed as many as six impossible things before breakfast. ” 
---<cite>Carroll, Lewis
+>I daresay you haven't had much practice,' said the Queen. 'When I was your age, I always did it for half-an-hour a day. Why, sometimes I've believed as many as six impossible things before breakfast.” 
+> -- <cite>Carroll, Lewis. Through the Looking-Glass, and What Alice Found There.<cite>
