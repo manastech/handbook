@@ -1,3 +1,4 @@
+# Interviews
 Once you're all settled and you understand how everything works, you might start feeling an urge to share Manas with others. When that happens, you can start to help with bringing people as great as you to the team by involving yourself in the interview process.
 
 As you can probably imagine, our hiring process is not exactly traditional. We get candidates as usual: getting an email to [jobs@manas.com.ar](mailto:jobs@manas.com.ar) or we find them through online searches. But after that, it's pretty different. We don't usually send out postings with "semi-senior programmer wanted with minimum three year experience in Java. UML basics appreciated". 
@@ -15,3 +16,7 @@ Once the interview process is over, everyone involved has to decide between "YES
 If you think the candidate should be hired, then you should include in your response the salary you believe is appropiate for the candidate. If you are having a hard time deciding on a number, check the [current salary list](http://man.as/sueldos) and try to find something appropriate by adjusting it in relation to the people you would consider his or her peer. The offer we make is the best one we can make, and therefore, final; don't lower your offer to negotiate later, and don't push the offer over what you think is right just because you really want them to accept. Salaries are internally visible and the candidate will face an awkward situation if they end up above their peers. And anyway, the review process in six months time will end up adjusting the salaries.
 
 Should everyone agree to hire them, en email with an offer will be sent to the candidate. The offered salary will be the average of everyone's suggestion. If they take it, ask for a copy of this manual and hand it to them on their first day of work. Congratulations, you've now closed the loop!
+
+>"Alice laughed. 'There's no use trying,' she said. 'One can't believe impossible things.'
+>I daresay you haven't had much practice,' said the Queen. 'When I was your age, I always did it for half-an-hour a day. Why, sometimes I've believed as many as six impossible things before breakfast. ” 
+--<cite>Carroll, Lewis
