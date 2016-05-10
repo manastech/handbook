@@ -9,7 +9,7 @@ _Deberían estar disponibles desde el día cero del proyecto, y mantenerse actua
 
 #### Repositorio de código
 * Usar git-flow como política de branching y tagging
-* Seguir las guidelines de las repository rules
+* Seguir las guidelines de las [repository rules](./2-repository-rules.md)
 * Recolectar devtools y scripts útiles para el proyecto: armar una carpeta `/tools` e insistir en commitearlos ahí. Agregar una línea de comentario con el objetivo y uso si no lo tuviera.
 
 #### Archivos iniciales del repositorio
