@@ -8,24 +8,24 @@ El formato del PUM! es una serie de checklists que el lead de un proyecto y los 
 _Deberían estar disponibles desde el día cero del proyecto, y mantenerse actualizados como parte del cierre de cada issue._
 
 #### Repositorio de código
-* Usar git-flow como política de branching y tagging
+* Usar **git-flow** como política de branching y tagging
 * Seguir las guidelines de las [repository rules](./2-repository-rules.md)
 * Recolectar devtools y scripts útiles para el proyecto: armar una carpeta `/tools` e insistir en commitearlos ahí. Agregar una línea de comentario con el objetivo y uso si no lo tuviera.
 
 #### Archivos iniciales del repositorio
-* CHANGELOG.MD: al cerrar cada issue mantener un [changelog](http://keepachangelog.com/), pensada en que un usuario del sistema pueda entender los cambios en cada versión.
-* README.md: Incluir una explicación mínima de qué es el proyecto (recordar que es lo primero que ve alguien al llegar al repositorio), cómo correrlo en modo development, y una descripción mínima de arquitectura.
-* LICENSE: especificar licencia del proyecto.
+* **README.md**: Incluir una explicación mínima de qué es el proyecto (recordar que es lo primero que ve alguien al llegar al repositorio), cómo correrlo en modo development, y una descripción mínima de arquitectura.
+* **LICENSE**: especificar licencia del proyecto.
+* **CHANGELOG.MD**: al cerrar cada issue mantener un [changelog](http://keepachangelog.com/), pensada en que un usuario del sistema pueda entender los cambios en cada versión.
 
 #### Issue tracker
+* **Milestones**: mantener una serie de futuros releases con una noción del objetivo o los epics que incluiría. Puede (y casi que debe) cambiar a medida que avanza el proyecto. Actúa como Roadmap del proyecto.
 * Estados en el ciclo de vida de tickets y cuáles son los action items que implican la transición entre los estados.
-* Milestones: mantener una serie de futuros releases con una noción del objetivo o los epics que incluiría. Puede (y casi que debe) cambiar a medida que avanza el proyecto. Actúa como Roadmap del proyecto.
 * Mantener política de versionado siguiendo las repository rules.
 
 #### Repositorio de diseño
-* Crear un proyecto en InVision (o similar) para subir los diseños.
-* Crear diseños por milestones: luego de diseñar el target final para un major, trabajar con el equipo de diseño para generar los diseños de los pasos intermedios que vayan a ir a producción o ser vistos por audiencias cuya impresión es importante; asociar esas versiones de UX intermedias a los milestones del roadmap y usar como punto de partida el estado actual para no caer en idealismos.
-* Armar un catálogo de idioms de diseño para una aplicación (mostrando cómo filtrar, cómo navegar, cómo se ven los botones, etc), de modo que se pueda usar como fuente cuando un desarrollador necesite agregar una nueva funcionalidad relacionada.
+* **Proyecto en InVision** (o similar) para subir los diseños.
+* **Diseños por milestone**s: luego de diseñar el target final para un major, trabajar con el equipo de diseño para generar los diseños de los pasos intermedios que vayan a ir a producción o ser vistos por audiencias cuya impresión es importante; asociar esas versiones de UX intermedias a los milestones del roadmap y usar como punto de partida el estado actual para no caer en idealismos.
+* **Catálogo de idioms** de diseño para una aplicación (mostrando cómo filtrar, cómo navegar, cómo se ven los botones, etc), de modo que se pueda usar como fuente cuando un desarrollador necesite agregar una nueva funcionalidad relacionada.
 
 #### Continuous Integration
 * Hacer visible el estado y reforzar el concepto de que es importante mantenerlo andando.
