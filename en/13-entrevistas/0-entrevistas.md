@@ -1,7 +1,8 @@
 # Interviews
+
 Once you're all settled and you understand how everything works, you might start feeling an urge to share Manas with others. When that happens, you can start to help with bringing people as great as you to the team by involving yourself in the interview process.
 
-As you can probably imagine, our hiring process is not exactly traditional. We get candidates as usual: getting an email to [jobs@manas.com.ar](mailto:jobs@manas.com.ar) or we find them through online searches. But after that, it's pretty different. We don't usually send out postings with "semi-senior programmer wanted with minimum three year experience in Java. UML basics appreciated". 
+As you can probably imagine, our hiring process is not exactly traditional. We get candidates as usual: getting an email to [jobs@manas.com.ar](mailto:jobs@manas.com.ar) or we find them through online searches. But after that, it's pretty different. We don't usually send out postings with "semi-senior programmer wanted with minimum three year experience in Java. UML basics appreciated".
 
 We're always looking for the next perfect person to hire. The catch is that we do not exactly know how to fine them by a list of skills or experience. That's where you come in.
 
@@ -18,5 +19,5 @@ If you think the candidate should be hired, then you should include in your resp
 Should everyone agree to hire them, en email with an offer will be sent to the candidate. The offered salary will be the average of everyone's suggestion. If they take it, ask for a copy of this manual and hand it to them on their first day of work. Congratulations, you've now closed the loop!
 
 >"Alice laughed. 'There's no use trying,' she said. 'One can't believe impossible things.'
->I daresay you haven't had much practice,' said the Queen. 'When I was your age, I always did it for half-an-hour a day. Why, sometimes I've believed as many as six impossible things before breakfast.” 
+>I daresay you haven't had much practice,' said the Queen. 'When I was your age, I always did it for half-an-hour a day. Why, sometimes I've believed as many as six impossible things before breakfast.”
 > -- <cite>Carroll, Lewis. Through the Looking-Glass, and What Alice Found There.<cite>

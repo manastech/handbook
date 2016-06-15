@@ -1,3 +1,2 @@
-No. Al menos no en el sentido estricto. Puesto de una manera mas positiva, todos los escritorios son tu escritorio. Inicialmente sentante donde encuentres lugar. Una vez que arranques en algún proyecto, ubicate cerca de la gente con la que estés trabajando. A medida que vayas cambiando de proyectos o trabajes con distintas personas, movete todo lo que haga falta.
-
+## Is it my desk?
 Nope. Not in a strict way, at least. Let's be positive and say that it's as yours as any other in here. Start sitting at any free desk you find. Once you start working in a project, find a place near the people you're working with. As you change projects or work with different people, change places as much as you need.

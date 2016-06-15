@@ -1,4 +1,4 @@
-##Meta-mission
+#Meta-mission
 >"Think only on those things that are in line with your principles and can bear the light of day. The content of your character is your choice. Day by day, what you do is who you become. Your integrity is your destiny."
 > --<cite>Heraclitus</cite>
 
