@@ -1,4 +1,4 @@
-## Holidays
+# Holidays
 
 > "All work and no play makes Jack a dull boy"
 > -- <cite>Proverbio</cite>

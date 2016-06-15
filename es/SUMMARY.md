@@ -45,4 +45,6 @@
    * [Conclusión](11-compensacion/3-conclusion.md)
 * [Vacaciones](12-vacaciones/0-vacaciones.md)
 * [Entrevistas](13-entrevistas/0-entrevistas.md)
-
+* Apéndice
+   * [Unified Principles and Practices](99-apendice/1-upp.md)
+   * [Repository rules](99-apendice/2-repository-rules.md)

@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Introduction](0-prefacio.md)
-* [Manas](01-manas/manas.md)
+* [Manas](01-manas/0-manas.md)
    * [The name](01-manas/1-el-nombre.md)
    * [The beginnings](01-manas/2-los-comienzos.md)
    * [24x7](01-manas/3-24x7.md)
@@ -46,4 +46,3 @@
    * [Conclusion](11-compensacion/3-conclusion.md)
 * [Holidays](12-vacaciones/0-vacaciones.md)
 * [Interviews](13-entrevistas/0-entrevistas.md)
-
