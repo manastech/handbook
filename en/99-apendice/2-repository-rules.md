@@ -1,5 +1,5 @@
 ## Repository rules
-Since the primary raw material we work with is code, it is paramount for the projects' health (and our own) that we keep a set of rules to work in all repositories in an orderly fashion.
+Since the main resource we work with is code, it is paramount for the projects' health (and our own) that we keep a set of rules to work in all repositories in an orderly fashion.
 
 ### Gitflow
 We follow [gitflow](http://nvie.com/posts/a-successful-git-branching-model/) as a branching and tagging model, where `master` acts as a development branch and a `stable` branch is kept.
@@ -11,10 +11,10 @@ Versions should be noted as `MAJOR.MINOR.PATCH(-preX)`. We follow [semantic vers
 * MINOR version when you add functionality in a backwards-compatible manner, and
 * PATCH version when you make backwards-compatible bug fixes.
 
-The `-pre1`, `-pre2`, etc follow the successive deployments to staging until the version is approved by QA.
+The `-pre1`, `-pre2`, etc are consecutive deploys to staging until such version is given the go ahead by the QA team.
 
 ### Commit messages
-We follow these [guidelines](http://chris.beams.io/posts/git-commit/):
+We aim for these [guidelines](http://chris.beams.io/posts/git-commit/):
 
 * Separate subject from body with a blank line
 * Limit the subject line to 50 characters
@@ -57,7 +57,7 @@ See also: #456, #789
 
 ### Guidelines
 
-Several items to keep into consideration when working on the repository:
+Several other things to consider when working in a repository.
 
 * No Half-baked Features in Master
 * Merge to Master Before Release

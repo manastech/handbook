@@ -24,7 +24,7 @@ _Artifacts should be ready since the beginning of the project, and stay up-to-da
 
 #### Design repository
 * **InVision** (or similar) to store the revisions of the project's design.
-* **Design per milestone**: after designing the design goal for a major release, work together with the design time to define the design for all intermediate versions that might reach production or be reviewed by an external audience; associate these intermediate UX versions to the roadmap's milestones, and always design them considering the current state of the application.
+* **Design per milestone**: after designing the design goal for a major release, work together with the design team to define the screens for all intermediate versions that might reach production or be reviewed by an external audience; associate these intermediate UX versions to the roadmap's milestones, and always design them considering the current state of the application.
 * **Design idioms catalog** for an app, showing how to filter, navigate, display buttons, etc; so it can be used when a developer needs to add a new related functionality.
 
 #### Continuous Integration
@@ -48,8 +48,8 @@ _Artifacts should be ready since the beginning of the project, and stay up-to-da
 #### Environments
 * Nightly (optional, ideal for large and complex systems)
 * Staging (for testing purposes, can be broken)
-* Demo (opcional, to showcase the current work before moving into production)
-* Producción (stable)
+* Demo (optional, to showcase the current work before moving into production)
+* Production (stable)
 
 #### Testing
 * Keep a list of test cases.
