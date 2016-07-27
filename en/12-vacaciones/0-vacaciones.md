@@ -1,7 +1,7 @@
 # Holidays
 
 > "All work and no play makes Jack a dull boy"
-> -- <cite>Proverbio</cite>
+> -- <cite>Proverb</cite>
 
 Nothing beats a good vacation to recharge, come back with fresh ideas and enthusiasm to share.
 
