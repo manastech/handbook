@@ -1,4 +1,4 @@
-#Meta-Misión
+# Meta-Misión
 > :Piensa sólo en aquellas cosas que están en línea
 con tus principios y que puedan soportar la luz del día.
 El contenido de tu carácter es tu elección.
