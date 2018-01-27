@@ -1,4 +1,4 @@
-##Excelencia
+## Excelencia
 Queremos destacarnos en lo que hacemos, diseñando, desarrollando y entregando productos de calidad en tiempo y forma, no sólo para darle valor a nuestros clientes, sino también como brújula que permita la exploración de las posibilidades individuales y del equipo. 
 
 En cualquier disciplina, la búsqueda eterna de la excelencia desencadena un proceso de auto descubrimiento que es aún mas valioso que el resultado concreto. Alentaremos todo intento que hagas por mejorar tu forma de trabajo o tus habilidades.

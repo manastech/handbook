@@ -1,4 +1,4 @@
-##Excellence
+## Excellence
 We want to excel in our field by designing, developing and delivering quality products on time. Beyond delivering value to our customers, this goal also acts as a compass that guides us in an exploration of our own individual and our team's potential.
 
 In any domain, the constant search for excellence kindles a self-discovery process whose value exceeds that of the actual result. We will encourage every attempt you make at improving your skills and work style.
