@@ -11,7 +11,7 @@
    * [Excelencia](02-meta-mision/2-excelencia.md)
    * [Transparencia](02-meta-mision/3-transparencia.md)
    * [Agilidad](02-meta-mision/4-agilidad.md)
-   * [Individualismo](02-meta-mision/5-individualismo.md)
+   * [Individualidad](02-meta-mision/5-individualidad.md)
    * [Incertidumbre](02-meta-mision/6-incertidumbre.md)
    * [Visión](02-meta-mision/7-vision.md)
 * [¿Por qué me contrataron?](03-por-que-me-contrataron/0-por-que-me-contrataron.md)
