@@ -11,7 +11,7 @@
    * [Excellence](02-meta-mision/2-excelencia.md)
    * [Transparency](02-meta-mision/3-transparencia.md)
    * [Agility](02-meta-mision/4-agilidad.md)
-   * [Individualism](02-meta-mision/5-individualismo.md)
+   * [Individuality](02-meta-mision/5-individualidad.md)
    * [Uncertainty](02-meta-mision/6-incertidumbre.md)
    * [Vision](02-meta-mision/7-vision.md)
 * [Why was I hired?](03-por-que-me-contrataron/por_que_me_contrataron.md)
