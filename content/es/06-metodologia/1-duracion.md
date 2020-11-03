@@ -1,0 +1,5 @@
+---
+title: Duración
+---
+## Duración
+Los proyectos que encaramos suelen durar de unas pocas semanas a varios años. Si te gusta permanecer en un mismo proyecto durante un largo tiempo, verlo crecer y tener la oportunidad de refactorear código a medida que entendés mejor el problema, podés elegir proyectos largos. Si preferís arrancar nuevos proyectos, cambiar de temas, rotar de equipos y resolver nuevos problemas, también podés hacerlo cambiando seguido de proyecto o participando en proyectos más chicos.

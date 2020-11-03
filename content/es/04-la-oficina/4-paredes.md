@@ -1,0 +1,7 @@
+---
+title: Paredes
+---
+## Paredes
+Vas a notar que cada tanto, alguien se levanta de su silla y escribe en la pared. No está teniendo una regresión a la infancia, las paredes en Manas se pueden escribir, y (aún más importante) también pueden borrarse. Usá el rincón que más te guste a modo de pizarrón.
+
+![walls](/images/walls.svg)

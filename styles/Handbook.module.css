@@ -1,0 +1,5 @@
+.handbook {
+    display: grid;
+    grid-template-columns: 240px 1fr 0px;
+    column-gap: 120px;
+}

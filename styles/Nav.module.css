@@ -1,0 +1,26 @@
+.nav {
+    font-size: 14px;
+    position: sticky;
+    top: 0;
+    border-right: 1px rgba(0, 0, 0, 0.1) solid;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.nav a {
+    display: flex;
+    align-items: center;
+    height: 42px;
+    text-decoration: none;
+    color: #999;
+    transition: background-color 0.5s;
+}
+
+.nav a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.nav a.current {
+    color: black;
+    border-right: 4px black solid;
+}

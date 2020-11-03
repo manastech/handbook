@@ -1,0 +1,18 @@
+.link {
+    color: black;
+    text-decoration: underline;
+}
+
+.link[target='_blank']:after {
+    display: inline-block;
+    content: url('/images/launch.svg');
+    opacity: 0.25;
+    transition: all 0.5s;
+    position: relative;
+    margin-left: 4px;
+    top: 4px;
+}
+
+.link[target='_blank']:hover:after {
+    opacity: 1;
+}
