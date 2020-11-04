@@ -8,6 +8,7 @@
 }
 
 .nav a {
+    cursor: pointer;
     display: flex;
     align-items: center;
     height: 42px;
@@ -20,7 +21,10 @@
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.nav a.current {
-    color: black;
+.current {
     border-right: 4px black solid;
+}
+
+.current a {
+    color: black;
 }

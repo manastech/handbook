@@ -7,17 +7,11 @@ body {
   margin: 0;
   font-family: Lato;
   font-size: 24px;
+  scroll-snap-type: y proximity;
 }
 
 * {
   box-sizing: border-box;
-}
-
-section:first-child :before {
-  margin-bottom: 60px;
-  width: 300px;
-
-  content: url(/images/manas.tech-black.svg);
 }
 
 section {
@@ -105,13 +99,53 @@ pre code {
   background-color: unset;
 }
 
-/* html {
-  scroll-snap-type: y proximity;
+#legal {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  grid-template-rows: auto auto auto 1fr;
+  column-gap: 12px;
+  row-gap: 12px;
+  width: 50%;
+  font-size: 14px;
+  line-height: 18px;
 }
 
-body {
-  scroll-snap-type: y proximity;
+#legal img {
+  width: 24px;
+  height: 24px;
+  opacity: 0.25;
 }
+
+#legal img.main {
+  opacity: 1;
+}
+
+#cover {
+  height: calc(100vh - 48px);
+  display: flex;
+  flex-direction: column;
+}
+
+#cover .picture {
+  width: 100%;
+  margin: 120px 0;
+  flex-grow: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#cover .logo {
+  background-image: url('/images/manas.tech-black.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 72px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+/* 
 
 section sup a {
   color: #999;
@@ -135,46 +169,5 @@ footer p {
   margin-block-start: 0;
   margin-block-end: 0;
   transition: all 0.5s;
-}
-
-
-
-.legal {
-  display: grid;
-  grid-template-columns: 24px 1fr;
-  column-gap: 12px;
-  row-gap: 12px;
-  width: 50%;
-  font-size: 14px;
-  line-height: 18px;
-}
-
-.legal img {
-  width: 24px;
-  height: 24px;
-  opacity: 0.25;
-}
-
-.legal img.main {
-  opacity: 1;
-}
-
-section .picture {
-  width: 100%;
-  margin: 120px 0;
-  flex-grow: 1;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.logo {
-  background-image: url('images/manas.tech-black.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 72px;
-  width: 100%;
-  margin: 30px 0;
 }
 */
