@@ -4,6 +4,7 @@ import footnotes from 'remark-footnotes'
 import Nav from './Nav'
 import Illustration from './Illustration'
 import Link from './Link'
+import Paragraph from './Paragraph'
 import styles from '../styles/Handbook.module.css'
 
 
@@ -34,16 +35,19 @@ function Handbook({ contents }) {
           window.removeEventListener("scroll", handleScroll);
         };
       }, [current]);
+// lang selector
 // internal links
-// get images outside p
-// review content
+// mobile
+// print
 
+// review content
 // change file names 
 // footnotes
 
     const renderers = {
         image: Illustration,
-        link: Link
+        link: Link,
+        paragraph: Paragraph
     }
 
     // console.log(contents)
