@@ -1,21 +1,21 @@
 import React, {useEffect} from 'react';
 import styles from '../styles/Nav.module.css'
 
-function Nav({ current, contents, scrollTo }) {
+function Nav({ currentSection, contents, scrollTo }) {
 
     let container
 
     useEffect(() => {
-        if(current) {
-            if(current.nav.offsetTop < container.scrollTop) {
+        if(currentSection && currentSection.nav) {
+            if(currentSection.nav.offsetTop < container.scrollTop) {
                 container.scrollTo({
                     behavior: 'smooth',
-                    top: current.nav.offsetTop
+                    top: currentSection.nav.offsetTop
                 })
-            } else if(container.scrollTop + container.clientHeight < current.nav.offsetTop + current.nav.clientHeight ) {
+            } else if(container.scrollTop + container.clientHeight < currentSection.nav.offsetTop + currentSection.nav.clientHeight ) {
                 container.scrollTo({
                     behavior: 'smooth',
-                    top: current.nav.offsetTop + current.nav.clientHeight - container.clientHeight
+                    top: currentSection.nav.offsetTop + currentSection.nav.clientHeight - container.clientHeight
                 })
             }
         }
@@ -25,7 +25,7 @@ function Nav({ current, contents, scrollTo }) {
         <nav ref={ref => container = ref} className={styles.nav}>
             {
                 contents.map((entry, i) => 
-                    <div key={i} ref={ref => entry.nav = ref} className={entry === current? styles.current : null}>
+                    <div key={i} ref={ref => entry.nav = ref} className={entry === currentSection? styles.currentSection : null}>
                         <a style={{paddingLeft: `${18 * entry.level}px`}} onClick={e => scrollTo(entry)}>{entry.data.title}</a>
                     </div>
                 )

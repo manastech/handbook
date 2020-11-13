@@ -21,10 +21,10 @@
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.current {
+.currentSection {
     border-right: 4px black solid;
 }
 
-.current a {
+.currentSection a {
     color: black;
 }

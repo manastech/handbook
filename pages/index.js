@@ -3,14 +3,18 @@ import path from 'path'
 import Handbook from '../components/Handbook'
 import matter from 'gray-matter'
 
-function Index({ contents }) {
-  return <Handbook contents={contents}></Handbook>
+function Index({languages}) {
+  return <Handbook languages={languages}></Handbook>
 }
 
 export async function getStaticProps() {
+  const languages = {
+    en: getContents(path.join(process.cwd(), 'content/en')),
+    es: getContents(path.join(process.cwd(), 'content/es'))
+  }
   return {
     props: {
-      contents: getContents(path.join(process.cwd(), 'content/en'))
+      languages
     }
   }
 }

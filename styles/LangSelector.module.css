@@ -1,0 +1,55 @@
+.langSelector {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+}
+
+.langSelector.opened .menu {
+    display: block;
+}
+
+.menu {
+    margin-top: 6px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    overflow: hidden;
+    display: none;
+}
+
+.selected {
+    border-radius: 4px;
+    width: 100%;
+}
+
+.selected,
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 12px;
+    font-size: 14px;
+    height: 42px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.selected:hover,
+.option:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.option:after {
+    margin-left: 6px;
+    content: url(/icons/tick.svg);
+    visibility: hidden;
+}
+
+.selected:after {
+    margin-left: 6px;
+    content: url(/icons/flag.svg);
+}
+
+.current:after {
+    visibility: visible;
+}
