@@ -12,7 +12,7 @@ _Artifacts should be ready since the beginning of the project, and stay up-to-da
 
 #### Code repository
 * Follow **git-flow** as branching and tagging policy.
-* Follow the [repository rules](./2-repository-rules.md) guidelines.
+* Follow the [repository rules](../99-apendice/2-repository-rules.md) guidelines.
 * Gather devtools and scripts useful for the project in a single `/tools` folder in the repository, with a brief explanation on the motivation and the usage of the tool.
 
 #### Initial repository files

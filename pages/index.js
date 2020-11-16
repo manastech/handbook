@@ -1,5 +1,5 @@
 import fs from 'fs'
-import path from 'path'
+import { default as router} from 'path'
 import Handbook from '../components/Handbook'
 import matter from 'gray-matter'
 
@@ -9,8 +9,8 @@ function Index({languages}) {
 
 export async function getStaticProps() {
   const languages = {
-    en: getContents(path.join(process.cwd(), 'content/en')),
-    es: getContents(path.join(process.cwd(), 'content/es'))
+    en: getContents(router.join(process.cwd(), 'content/en')),
+    es: getContents(router.join(process.cwd(), 'content/es')),
   }
   return {
     props: {
@@ -19,20 +19,21 @@ export async function getStaticProps() {
   }
 }
 
-function getContents(directory, level = 0, contents = []) {
-  const entries = fs.readdirSync(directory, {withFileTypes: true})
+function getContents(base, directory = '', level = 0, contents = []) {
+  const entries = fs.readdirSync(router.join(base, directory), {withFileTypes: true})
   entries.forEach((entry, i) => {
-      const path = `${directory}/${entry.name}`
-      if(entry.isDirectory()) {
-        contents.push(...getContents(path, level + 1))
-      } else if (RegExp('^.*\.md$').test(entry.name)) {
-        const file = matter(fs.readFileSync(path, 'utf8'))
-        contents.push({
-          level: level? level + (i? 1 : 0) : 1,
-          data: file.data,
-          content: file.content
-        })
-      }
+    const path = `${directory.length? `${directory}/` : ''}${entry.name}`
+    if(entry.isDirectory()) {
+      contents.push(...getContents(base, path, level + 1))
+    } else if (RegExp('^.*\.md$').test(entry.name)) {
+      const file = matter(fs.readFileSync(router.join(base, path), 'utf8'))
+      contents.push({
+        level: level? level + (i? 1 : 0) : 1,
+        path,
+        data: file.data,
+        content: file.content
+      })
+    }
   })
   return contents
 }

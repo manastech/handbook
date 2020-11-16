@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import {useEffect, useState} from 'react'
 import ReactMarkdown from 'react-markdown'
 // import footnotes from 'remark-footnotes'
 import Nav from './Nav'
@@ -16,7 +16,6 @@ function Handbook({languages}) {
 
     const scrollTo = (section) => {
         section.ref.scrollIntoView({
-            behavior: 'smooth',
             block: 'start',
         })
     }
@@ -27,7 +26,7 @@ function Handbook({languages}) {
 
     useEffect(() => {
         const handleScroll = () => {
-          const selectedSection = contents.find(({ref}) => ref.offsetTop <= window.scrollY && window.scrollY < ref.offsetTop + ref.clientHeight)
+          const selectedSection = contents.find(({ref}) => ref.offsetTop - 10 <= window.scrollY && window.scrollY < -10 + ref.offsetTop + ref.clientHeight)
           if (selectedSection !== currentSection) {
             setCurrentSection(selectedSection)
           } else if (!selectedSection && currentSection) {
@@ -40,18 +39,13 @@ function Handbook({languages}) {
         return () => {
           window.removeEventListener('scroll', handleScroll)
         }
-      }, [currentSection])
+      }, [currentSection, currentLang])
 
-// close menu on selection
-// update nav current
-
-// internal links
-// mobile
-// print
-
-// review content
-// change file names 
-// footnotes
+    // mobile
+    // print
+    // review content
+    // change file names 
+    // footnotes
 
     const renderers = {
         image: Illustration,
@@ -65,7 +59,7 @@ function Handbook({languages}) {
             <LangSelector currentLang={currentLang} languages={Object.keys(languages)} handleLang={handleLang}></LangSelector>
             <Nav currentSection={currentSection} contents={contents} scrollTo={scrollTo}></Nav>
             {contents.map((section, i) => (
-                <section key={i} ref={ref => section.ref = ref}>
+                <section key={i} id={section.path} ref={ref => section.ref = ref}>
                     <ReactMarkdown escapeHtml={false} renderers={renderers} source={section.content} />
                 </section>
             ))}

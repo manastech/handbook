@@ -1,35 +1,28 @@
-import React, { useEffect, useState } from 'react'
+import {useEffect, useState} from 'react'
 import styles from '../styles/LangSelector.module.css'
 
 function Nav({currentLang, languages, handleLang}) {
 
-    let root
+    const [menu, showMenu] = useState(false);
 
     const handleClick = (e) => {
         handleLang(e.target.getAttribute('data-lang'))
+        showMenu(false)
     }
 
     useEffect(() => {
         const handleToggle = (e) => {
-            if(root) {
-                console.log('toggle')
-                if(root.classList.contains(styles.opened)) {
-                    root.classList.remove(styles.opened)
-                } else if(root.contains(e.target) || root === e.targe) {
-                    root.classList.add(styles.opened)
-                }
-            }
+            showMenu(false)
         }
-    
         window.addEventListener('click', handleToggle)
         return () => {
           window.removeEventListener('click', handleToggle)
         }
-    })
+    }, [currentLang])
 
     return (
-        <nav ref={ref => root = ref} className={styles.langSelector}>
-            <div className={styles.selected}>
+        <nav className={`${styles.langSelector} ${menu? styles.opened : ''}`}>
+            <div className={styles.selected} onClick={e => {e.stopPropagation();showMenu(!menu)}}>
                 <span>{currentLang}</span>
             </div>
             <div className={styles.menu}>

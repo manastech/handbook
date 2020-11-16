@@ -19,7 +19,7 @@ function Nav({ currentSection, contents, scrollTo }) {
                 })
             }
         }
-    });
+    }, [currentSection]);
 
     return (
         <nav ref={ref => container = ref} className={styles.nav}>
