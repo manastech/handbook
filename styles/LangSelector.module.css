@@ -2,6 +2,16 @@
     position: fixed;
     top: 12px;
     right: 12px;
+    z-index: 2;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait), only screen and (max-width: 840px) and (orientation: landscape) {
+    .langSelector {
+        top: 3px;
+        right: 3px;
+    }
 }
 
 .langSelector.opened .menu {
@@ -26,12 +36,22 @@
 .option {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     padding: 12px;
     font-size: 14px;
+    width: 78px;
     height: 42px;
     transition: all 0.5s;
     cursor: pointer;
+}
+
+.selected *,
+.option * {
+    pointer-events: none;
+}
+
+.selected span,
+.option span {
+    flex-grow: 1;
 }
 
 .selected:hover,

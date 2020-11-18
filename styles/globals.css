@@ -33,14 +33,14 @@ h1 {
   font-size: 48px;
   line-height: 60px;
   margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-end: 0.5em;
 }
 
 h2 {
   font-size: 36px;
   line-height: 48px;
   margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-end: 0.5em;
 }
 
 blockquote {
@@ -82,6 +82,7 @@ pre {
   padding: 48px;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 2px;
+  overflow-x: scroll;
 }
 
 code {
@@ -143,6 +144,92 @@ pre code {
   height: 72px;
   width: 100%;
   margin: 30px 0;
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait), only screen and (max-width: 840px) and (orientation: landscape) {
+
+  html,
+  body {
+    font-size: 18px;
+  }
+
+  section p,
+  section li {
+    line-height: 24px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-block-end: 0;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-block-end: 0;
+  }
+
+  blockquote {
+    font-size: 24px;
+    margin-inline-start: 36px;
+    margin-inline-end: 36px;
+  }
+
+  blockquote p {
+    margin: 0;
+    line-height: 30px;
+  }
+
+  blockquote p:before {
+    font-size: 72px;
+    top: 20px;
+    left: -36px;
+  }
+
+  blockquote cite {
+    font-size: 18px;
+  }
+
+  code {
+    font-size: 16px;
+  }
+
+  pre code {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #legal {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    grid-template-rows: auto auto auto 1fr;
+    column-gap: 12px;
+    row-gap: 12px;
+    width: unset;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  #legal img {
+    width: 24px;
+    height: 24px;
+    opacity: 0.25;
+  }
+
+  #legal img.main {
+    opacity: 1;
+  }
+  #cover {
+    height: calc(100vh - 48px);
+    display: flex;
+    flex-direction: column;
+  }
+
+  #cover .logo {
+    height: 48px;
+  } 
 }
 
 /* 

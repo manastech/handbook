@@ -3,3 +3,10 @@
     grid-template-columns: 240px 1fr 0px;
     column-gap: 120px;
 }
+
+@media only screen and (max-width: 480px) and (orientation: portrait), only screen and (max-width: 840px) and (orientation: landscape) {
+    .handbook {
+        display: block;
+        padding: 0 12px;
+    }
+}

@@ -27,7 +27,11 @@ function Nav({currentLang, languages, handleLang}) {
             </div>
             <div className={styles.menu}>
                {
-                   languages.map((language, i) => <div key={i} data-lang={language} className={`${styles.option} ${language === currentLang? styles.current : ''}`} onClick={handleClick}>{language}</div>)
+                    languages.map((language, i) => (
+                        <div key={i} data-lang={language} className={`${styles.option} ${language === currentLang? styles.current : ''}`} onClick={handleClick}>
+                            <span>{language}</span>
+                        </div>
+                    ))
                }
            </div>
         </nav>

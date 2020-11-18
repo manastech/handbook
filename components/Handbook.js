@@ -43,9 +43,9 @@ function Handbook({languages}) {
 
     // mobile
     // print
+    // footnotes
     // review content
     // change file names 
-    // footnotes
 
     const renderers = {
         image: Illustration,
@@ -56,8 +56,8 @@ function Handbook({languages}) {
     const contents = languages[currentLang]
     return (
         <div className={styles.handbook}>
-            <LangSelector currentLang={currentLang} languages={Object.keys(languages)} handleLang={handleLang}></LangSelector>
             <Nav currentSection={currentSection} contents={contents} scrollTo={scrollTo}></Nav>
+            <LangSelector currentLang={currentLang} languages={Object.keys(languages)} handleLang={handleLang}></LangSelector>
             {contents.map((section, i) => (
                 <section key={i} id={section.path} ref={ref => section.ref = ref}>
                     <ReactMarkdown escapeHtml={false} renderers={renderers} source={section.content} />

@@ -1,10 +1,19 @@
 import fs from 'fs'
 import { default as router} from 'path'
+import Head from 'next/head'
 import Handbook from '../components/Handbook'
 import matter from 'gray-matter'
 
 function Index({languages}) {
-  return <Handbook languages={languages}></Handbook>
+  return (
+    <>
+      <Head>
+        <title>Manas handbook</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
+      </Head>
+      <Handbook languages={languages}></Handbook>
+    </>
+  )
 }
 
 export async function getStaticProps() {

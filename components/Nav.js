@@ -1,32 +1,42 @@
-import React, {useEffect} from 'react';
+import {useEffect, useState} from 'react';
 import styles from '../styles/Nav.module.css'
 
 function Nav({ currentSection, contents, scrollTo }) {
 
-    let container
+    let container, header
+    const [menu, showMenu] = useState(false);
+
+    const handleClick = (e) => {
+        showMenu(!menu)
+    }
 
     useEffect(() => {
+        //error on lang change
+
         if(currentSection && currentSection.nav) {
-            if(currentSection.nav.offsetTop < container.scrollTop) {
+            if(currentSection.nav.offsetTop < container.scrollTop + header.clientHeight) {
                 container.scrollTo({
                     behavior: 'smooth',
-                    top: currentSection.nav.offsetTop
+                    top: currentSection.nav.offsetTop - header.clientHeight
                 })
-            } else if(container.scrollTop + container.clientHeight < currentSection.nav.offsetTop + currentSection.nav.clientHeight ) {
+            } else if(container.scrollTop + window.innerHeight < currentSection.nav.offsetTop + currentSection.nav.clientHeight ) {
                 container.scrollTo({
                     behavior: 'smooth',
-                    top: currentSection.nav.offsetTop + currentSection.nav.clientHeight - container.clientHeight
+                    top: currentSection.nav.offsetTop + currentSection.nav.clientHeight - window.innerHeight
                 })
             }
         }
     }, [currentSection]);
-
     return (
-        <nav ref={ref => container = ref} className={styles.nav}>
+        <nav ref={ref => container = ref} className={`${styles.nav} ${menu? styles.open : ''}`}>
+            <div ref={ref => header = ref} className={styles.header} onClick={handleClick}>
+                <div className={styles.icon}></div>
+                <span>Manas handbook</span>
+            </div>
             {
                 contents.map((entry, i) => 
-                    <div key={i} ref={ref => entry.nav = ref} className={entry === currentSection? styles.currentSection : null}>
-                        <a style={{paddingLeft: `${18 * entry.level}px`}} onClick={e => scrollTo(entry)}>{entry.data.title}</a>
+                    <div key={i} ref={ref => entry.nav = ref} className={entry === currentSection? styles.current : null}>
+                        <a style={{paddingLeft: `${18 * entry.level}px`}} onClick={e => {handleClick(e);scrollTo(entry)}}>{entry.data.title}</a>
                     </div>
                 )
             }
