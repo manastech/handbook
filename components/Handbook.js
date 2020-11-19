@@ -41,11 +41,8 @@ function Handbook({languages}) {
         }
       }, [currentSection, currentLang])
 
-    // mobile
-    // print
+    // Don't print
     // footnotes
-    // review content
-    // change file names 
 
     const renderers = {
         image: Illustration,

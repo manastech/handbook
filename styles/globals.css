@@ -125,25 +125,20 @@ pre code {
   height: calc(100vh - 48px);
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-#cover .picture {
-  width: 100%;
-  margin: 120px 0;
-  flex-grow: 1;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+#picture {
+  width: 75%;
 }
 
-#cover .logo {
-  background-image: url('/images/manas.tech-black.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+#logo {
   height: 72px;
-  width: 100%;
-  margin: 30px 0;
+  margin: 30px 0 60px 0;
+}
+
+#print {
+  display: none;
 }
 
 @media only screen and (max-width: 480px) and (orientation: portrait), only screen and (max-width: 840px) and (orientation: landscape) {
@@ -221,15 +216,139 @@ pre code {
   #legal img.main {
     opacity: 1;
   }
-  #cover {
-    height: calc(100vh - 48px);
-    display: flex;
-    flex-direction: column;
+  
+  #picture {
+    width: 90%;
+  }
+  
+  #logo {
+    height: 48px;
+    margin: 60px 0 60px 0;
+  }
+}
+
+@media print {
+
+  @page {
+    size: A4;
+    margin: 48pt 48pt 72pt 48pt;
   }
 
-  #cover .logo {
-    height: 48px;
-  } 
+  html,
+  body {
+    font-size: 14pt;
+  }
+
+  h1, h2, h3, h4, h5, h6, section, blockquote, pre, img {
+    display: block;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+
+  section {
+    padding: 48pt 0 0 0;
+    page-break-before: always;
+  }
+
+  section p,
+  section li {
+    line-height: 18pt;
+  }
+
+  h1 {
+    font-size: 30pt;
+    line-height: 42pt;
+    margin-top: 0;
+
+  }
+
+  h2 {
+    font-size: 24pt;
+    line-height: 30pt;
+    margin-top: 0;
+  }
+
+  h3, h4, h5, h6 {
+    margin-top: 2em;
+    margin-bottom: 0;
+  }
+
+  blockquote {
+    font-size: 24px;
+    margin-inline-start: 72pt;
+    margin-inline-end: 72pt;
+  }
+
+  blockquote p {
+    line-height: 36px;
+  }
+
+  blockquote p:before {
+    top: 22pt;
+    left: -42pt;
+    font-size: 78pt;
+  }
+
+  blockquote cite {
+    margin-top: 18pt;
+    font-size: 18pt;
+  }
+
+  pre {
+    border: 1pt black solid;
+    background-color: unset;
+    padding: 24pt;
+    border-radius: 2pt;
+  }
+
+  code {
+    font-size: 10pt;
+    border: 1pt black solid;
+    background-color: unset;
+  }
+
+  pre code {
+    font-size: 12px;
+    line-height: 18pt;
+    border: unset;
+  }
+
+   #legal {
+    grid-template-columns: 24pt 1fr;
+    column-gap: 12pt;
+    row-gap: 12pt;
+    font-size: 12pt;
+    line-height: 18pt;
+  }
+
+  #legal img {
+    width: 24pt;
+    height: 24pt;
+  }
+
+
+  #picture {
+    width: 75%;
+  }
+  
+  #logo {
+    height: 48pt;
+    margin: 0 0 120pt 0;
+  }
+
+  #print {
+    display: flex;
+    font-size: 10pt;
+    margin-top: 120pt;
+    align-items: center;
+  }
+
+  #print:before {
+    content: url(/icons/eco.svg);
+    margin-right: 6pt;
+  }
 }
 
 /* 

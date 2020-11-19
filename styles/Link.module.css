@@ -16,3 +16,15 @@
 .link[target='_blank']:hover:after {
     opacity: 1;
 }
+
+@media print {
+    .link {
+        text-decoration: unset;
+    }
+
+    .link[target='_blank']:after {
+        content: '(' attr(href)  ')';
+        top: unset;
+        opacity: unset;
+    }
+}

@@ -7,13 +7,6 @@
     text-transform: uppercase;
 }
 
-@media only screen and (max-width: 480px) and (orientation: portrait), only screen and (max-width: 840px) and (orientation: landscape) {
-    .langSelector {
-        top: 3px;
-        right: 3px;
-    }
-}
-
 .langSelector.opened .menu {
     display: block;
 }
@@ -72,4 +65,17 @@
 
 .current:after {
     visibility: visible;
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait), only screen and (max-width: 840px) and (orientation: landscape) {
+    .langSelector {
+        top: 3px;
+        right: 3px;
+    }
+}
+
+@media print {
+    .langSelector {
+        display: none;
+    }
 }
