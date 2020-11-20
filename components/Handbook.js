@@ -41,7 +41,8 @@ function Handbook({languages}) {
         }
       }, [currentSection, currentLang])
 
-    // Don't print
+    // Clear illustrations
+    // Color book
     // footnotes
 
     const renderers = {
