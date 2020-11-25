@@ -1,6 +1,5 @@
 import {useEffect, useState} from 'react'
 import ReactMarkdown from 'react-markdown'
-// import footnotes from 'remark-footnotes'
 import Nav from './Nav'
 import Illustration from './Illustration'
 import Link from './Link'
@@ -40,10 +39,6 @@ function Handbook({languages}) {
           window.removeEventListener('scroll', handleScroll)
         }
       }, [currentSection, currentLang])
-
-    // Clear illustrations
-    // Color book
-    // footnotes
 
     const renderers = {
         image: Illustration,

@@ -5,7 +5,7 @@
 
 .link[target='_blank']:after {
     display: inline-block;
-    content: url('/images/launch.svg');
+    content: url('/icons/launch.svg');
     opacity: 0.25;
     transition: all 0.5s;
     position: relative;
