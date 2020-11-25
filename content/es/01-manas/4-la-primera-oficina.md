@@ -9,6 +9,6 @@ Luego de unos cuantos años en ese entrañado lugar, Manas se mudó a la actual 
 
 ![office](/images/office.svg)
 
-[^1] Los techos eran muy bajos
+[^1]: Los techos eran muy bajos
 
-[^2] No había ventanas
+[^2]: No había ventanas
