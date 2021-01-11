@@ -5,8 +5,8 @@ This text serves two simultaneous purposes that mutually feedback each other: it
 Start the development server
 
 ```
-$ yarn
-$ yarn dev
+$ yarn install
+$ yarn develop
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
