@@ -2,4 +2,5 @@
 title: Vision
 ---
 ## Vision
-Our vision is that the most legitimate and powerful way of adding value to society through technology, is making sure that everyone involved in the process enjoys as much freedom as possible and is able to let his creativity flow in a collaborative, relaxed and dynamic environment. If this doesn't work, what we're doing lacks any meaning. As a member of our team **you are entitled to demand that this premise is followed to its last consequences**. We believe that we provide the best of ourselves to our customers, when we work with joy, excitement, freedom and creativity.
+
+Our vision is that the most legitimate and powerful way of adding value to society through technology is making sure that everyone involved in the process enjoys as much freedom as possible and is able to let their creativity flow in a collaborative, relaxed and dynamic environment. If this doesn't work, what we're doing lacks any meaning. As a member of our team **you are entitled to demand that this premise is followed to its last consequences**. We believe that we provide the best of ourselves to our customers when we work with joy, excitement, freedom and creativity.

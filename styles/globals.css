@@ -129,7 +129,8 @@ pre code {
 }
 
 #picture {
-  width: 75%;
+  width: auto;
+  height: 75%;
 }
 
 #logo {
