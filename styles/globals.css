@@ -177,6 +177,32 @@ pre code {
   color: black;
 }
 
+#github {
+  margin-top: 48px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  align-items: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  border: 2px rgba(0, 0, 0, 0.1) solid;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 8px 12px;
+  transition: all 0.25s;
+}
+
+#github:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+#github:before {
+  width: 24px;
+  height: 24px;
+  content: url(/icons/github.svg);
+  margin-right: 6pt;
+}
+
 @media only screen and (max-width: 480px) and (orientation: portrait), only screen and (max-width: 840px) and (orientation: landscape) {
 
   html,
@@ -284,14 +310,23 @@ pre code {
     page-break-after: avoid;
   }
 
+  h1 {
+    page-break-before: always;
+  }
+
+  #blueprints {
+    page-break-inside: avoid;
+  }
+
   section {
     padding: 48pt 0 0 0;
-    page-break-before: always;
+    min-height: unset;
   }
 
   section p,
   section li {
     line-height: 18pt;
+    page-break-inside: avoid;
   }
 
   h1 {
