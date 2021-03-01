@@ -353,6 +353,16 @@ pre code {
   }
 }
 
+ul,
+ol {
+  margin-bottom: 12px;
+  margin-inline-start: 2em;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
 /* 
 
 section sup a {
