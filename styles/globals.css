@@ -142,6 +142,41 @@ pre code {
   display: none;
 }
 
+#blueprints {
+  font-weight: 300;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+#blueprints img {
+  padding: 72px 0;
+  max-height: 100vh;
+}
+
+#blueprints .legend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+#blueprints .legend div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  border: 2px rgba(0, 0, 0, 0.1) solid;
+  border-radius: 50%;
+}
+
+#blueprints a {
+  color: black;
+}
+
 @media only screen and (max-width: 480px) and (orientation: portrait), only screen and (max-width: 840px) and (orientation: landscape) {
 
   html,

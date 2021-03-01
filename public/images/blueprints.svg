@@ -8,6 +8,9 @@
 	.st2{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
 	.st3{fill:none;stroke:#000000;stroke-width:1.0242;stroke-miterlimit:10;}
 	.st4{fill:url(#SVGID_1_);stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;stroke:#CCCCCB;stroke-width:0.5;stroke-miterlimit:10;}
+	.st6{font-family:'Lato-Light';}
+	.st7{font-size:9px;}
 </style>
 <pattern  width="1.8" height="1.8" patternUnits="userSpaceOnUse" id="New_Pattern_Swatch_2" viewBox="0 -1.8 1.8 1.8" style="overflow:visible;">
 	<g>
@@ -333,6 +336,34 @@
 			h-5.9v-6.8h5.9v-25.8h-5.9v-6.8h5.9v-67H168.4V190h95.2v16.6h4.1v6.8h-4.1v28.4h-29.1v-2.2h-53.9v2.2h-12.1v2.2h-6.7V132.8h130.9
 			V19.7h-24V9.4H166.2V115h-2.3V9.4H7.5V513.8z M180.6,235v2.2h25.8v-40.5h-38V235H180.6z M248.5,196.7V235h8.4v-38.3H248.5z
 			 M246.2,196.7h-37.6v40.5h25.8V235h11.8V196.7z M297,495.9H228v4.5L3,521v23.9L225,524.6l0.1,0h0.1H297V495.9z"/>
+	</g>
+	<g>
+		<circle class="st5" cx="64.3" cy="440.6" r="5.8"/>
+		<text transform="matrix(1 0 0 1 61.3745 443.8445)" class="st6 st7">B</text>
+	</g>
+	<g>
+		<circle class="st5" cx="35.6" cy="243.8" r="5.8"/>
+		<text transform="matrix(1 0 0 1 32.2539 247.002)" class="st6 st7">G</text>
+	</g>
+	<g>
+		<circle class="st5" cx="35.6" cy="215.3" r="5.8"/>
+		<text transform="matrix(1 0 0 1 33.0483 218.4636)" class="st6 st7">F</text>
+	</g>
+	<g>
+		<circle class="st5" cx="230.2" cy="382.1" r="5.8"/>
+		<text transform="matrix(1 0 0 1 227.0139 385.3005)" class="st6 st7">C</text>
+	</g>
+	<g>
+		<circle class="st5" cx="84" cy="230.5" r="5.8"/>
+		<text transform="matrix(1 0 0 1 81.3169 233.6561)" class="st6 st7">E</text>
+	</g>
+	<g>
+		<circle class="st5" cx="229.1" cy="70.1" r="5.8"/>
+		<text transform="matrix(1 0 0 1 225.644 73.2842)" class="st6 st7">D</text>
+	</g>
+	<g>
+		<circle class="st5" cx="64.3" cy="77.9" r="5.8"/>
+		<text transform="matrix(1 0 0 1 61.3584 81.0691)" class="st6 st7">A</text>
 	</g>
 </g>
 </svg>
