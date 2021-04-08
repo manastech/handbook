@@ -5,6 +5,6 @@ title: Handbook
     <img id='logo' src='/images/manas.tech-black.svg'></img>
     <img id='picture' src='/images/ceci-nest-pas-une-societe-de-logiciels.svg'></img>
     <div id='print'>
-        <span>Antes de imprimir, pensá en el medio ambiente y en lo difícil que es hacer que tu impresora funcione bien</span>
+        <span>Antes de imprimir, por favor considerá el medio ambiente y lo complejo que es conseguir que la impresora lo haga correctamente.</span>
     </div>
 </div>

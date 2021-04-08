@@ -5,7 +5,7 @@ title: Compensation
 
 > We tend to see ourselves primarily in the light of our intentions, which are invisible to others, while we see others mainly in the light of their actions, which are visible to us.<cite>John Godolphin Bennett</cite>
 
-We want you to be rewarded for your work as fairly as possible, and in a company like ours we could not leave such an important decision to a single person. In Manas, your salary is not decided by your boss (there are no bosses), or calculated as a function of a 182-question survey where your teammates rank you from 1 to 5.
+We want you to be rewarded for your work as fairly as possible, and in an organization like ours we could not leave such an important decision to a single person. In Manas, your salary is not decided by your boss (there are no bosses), or calculated as a function of a 182-question survey where your teammates rank you from 1 to 5.
 
 Salaries at Manas are calculated as the sum of 4 components:
 

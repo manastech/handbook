@@ -3,11 +3,11 @@ title: Legal
 ---
 <div id='legal'>
     <img class='main' src='/icons/creative-commons.svg'>
-    <span><b>Attribution-NonCommercial-ShareAlike<br>CC BY-NC-SA</b></span>
+    <span><b>Attribuion-NonCommercial-ShareAlike<br>CC BY-NC-SA</b></span>
     <img src='/icons/attribution.svg'>
-    <span><b>Attribution</b> &#8212 You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
+    <span><b>Atribución</b> &#8212 Debe atribuirse la obra en la manera especificada por el autor o licenciante (pero de ninguna manera que sugiera que éstos te avalan o avalan tu uso de esta obra).</span>
     <img src='/icons/non-commercial.svg'>
-    <span><b>Noncommercial</b> &#8212 You may not use this work for commercial purposes.</span>
+    <span><b>No comercial</b> &#8212 Se prohibe el uso de esta obra para fines comerciales.</span>
     <img src='/icons/share-alike.svg'>
-    <span><b>Share Alike</b> &#8212 If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+    <span><b>Compartir bajo la misma licencia</b> &#8212 Si se altera, transforma, o elabora sobre esta obra, puede distribuirse la obra resultante sólo bajo la misma licencia o una similar.
 </div>
