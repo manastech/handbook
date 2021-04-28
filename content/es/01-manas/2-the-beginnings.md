@@ -1,5 +1,5 @@
 ---
-title: The beginnings
+title: Los comienzos
 ---
 ## Los comienzos
 

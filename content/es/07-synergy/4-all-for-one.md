@@ -1,5 +1,5 @@
 ---
-title: All for one
+title: Todos para uno
 ---
 ## Todos para uno
 

@@ -1,5 +1,5 @@
 ---
-title: Compensation
+title: Compensación
 ---
 # Compensación
 

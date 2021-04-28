@@ -1,5 +1,5 @@
 ---
-title: Individuality
+title: Individualidad
 ---
 ## Individualidad
 

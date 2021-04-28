@@ -1,5 +1,5 @@
 ---
-title: Walls
+title: Paredes
 ---
 ## Paredes
 

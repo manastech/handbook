@@ -1,5 +1,5 @@
 ---
-title: Uncertainty
+title: Incertidumbre
 ---
 ## Incertidumbre
 

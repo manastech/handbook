@@ -1,5 +1,5 @@
 ---
-title: Altruism
+title: Altruismo
 ---
 ## Altruismo
 

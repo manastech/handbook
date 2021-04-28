@@ -1,5 +1,5 @@
 ---
-title: Project Genome
+title: Proyecto Genome
 ---
 ## Proyecto Genome
 

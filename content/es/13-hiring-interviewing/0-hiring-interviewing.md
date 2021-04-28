@@ -1,5 +1,5 @@
 ---
-title: Hiring & interviewing
+title: Contratación y Entrevistas
 ---
 # Contratación y Entrevistas
 

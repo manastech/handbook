@@ -1,5 +1,5 @@
 ---
-title: Meta-mission
+title: Meta-misión
 ---
 # Meta-misión
 

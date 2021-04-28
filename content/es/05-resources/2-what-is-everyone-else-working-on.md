@@ -1,5 +1,5 @@
 ---
-title: What is everyone else working on?
+title: ¿En qué están trabajando los demás?
 ---
 ## ¿En qué están trabajando los demás?
 

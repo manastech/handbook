@@ -1,5 +1,5 @@
 ---
-title: Agility
+title: Agilidad
 ---
 ## Agilidad
 

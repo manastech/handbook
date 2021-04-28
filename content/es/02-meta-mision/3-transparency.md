@@ -1,5 +1,5 @@
 ---
-title: Transparency
+title: Transparencia
 ---
 ## Transparencia
 

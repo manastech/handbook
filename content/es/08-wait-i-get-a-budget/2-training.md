@@ -1,5 +1,5 @@
 ---
-title: Training
+title: Capacitación
 ---
 # Capacitación
 

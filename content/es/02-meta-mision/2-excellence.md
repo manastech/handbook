@@ -1,5 +1,5 @@
 ---
-title: Excellence
+title: Excelencia
 ---
 ## Excelencia
 

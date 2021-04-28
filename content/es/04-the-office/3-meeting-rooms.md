@@ -1,5 +1,5 @@
 ---
-title: Meeting rooms
+title: Salas de reunión
 ---
 ## Salas de reunión
 

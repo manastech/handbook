@@ -1,5 +1,5 @@
 ---
-title: Do great work, have great fun
+title: Balance profesional/personal
 ---
 # Balance profesional/personal
 

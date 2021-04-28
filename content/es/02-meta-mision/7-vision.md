@@ -1,5 +1,5 @@
 ---
-title: Vision
+title: Visión
 ---
 ## Visión
 

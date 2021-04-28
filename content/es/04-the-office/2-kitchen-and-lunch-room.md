@@ -1,5 +1,5 @@
 ---
-title: Kitchen and lunch room
+title: Cocina
 ---
 ## Cocina
 

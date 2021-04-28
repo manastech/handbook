@@ -1,5 +1,5 @@
 ---
-title: Why was I hired?
+title: ¿Por qué me contrataron?
 ---
 # ¿Por qué me contrataron?
 

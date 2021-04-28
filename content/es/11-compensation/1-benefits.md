@@ -1,5 +1,5 @@
 ---
-title: Benefits
+title: Beneficios
 ---
 ## Beneficios
 

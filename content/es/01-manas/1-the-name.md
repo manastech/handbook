@@ -1,5 +1,5 @@
 ---
-title: The name
+title: El nombre
 ---
 ## El nombre
 

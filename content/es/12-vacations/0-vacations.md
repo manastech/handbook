@@ -1,5 +1,5 @@
 ---
-title: Vacations
+title: Vacaciones
 ---
 # Vacaciones
 
