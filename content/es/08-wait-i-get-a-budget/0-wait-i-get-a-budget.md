@@ -1,7 +1,7 @@
 ---
 title: Wait, I get a budget?
 ---
-# Pará, me dan un presupuesto?
+# Pará, ¿me dan un presupuesto?
 
 > La más simple definición de un presupuesto es ‘decirle a tu dinero a dónde ir’.<cite>Tsh Oxenreider</cite>
 
