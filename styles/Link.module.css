@@ -1,0 +1,30 @@
+.link {
+    color: black;
+    text-decoration: underline;
+}
+
+.link[target='_blank']:after {
+    display: inline-block;
+    content: url('/icons/launch.svg');
+    opacity: 0.25;
+    transition: all 0.5s;
+    position: relative;
+    margin-left: 4px;
+    top: 4px;
+}
+
+.link[target='_blank']:hover:after {
+    opacity: 1;
+}
+
+@media print {
+    .link {
+        text-decoration: unset;
+    }
+
+    .link[target='_blank']:after {
+        content: '(' attr(href)  ')';
+        top: unset;
+        opacity: unset;
+    }
+}

@@ -1,0 +1,22 @@
+.illustration {
+    width: auto;
+    max-height: 50vh;
+    align-self: center;
+    margin: 2em 0;
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    .illustration {
+        width: auto;
+        max-height: unset;
+        max-width: 75vw;
+    }
+}
+
+@media only screen and (max-width: 840px) and (orientation: landscape) {
+    .illustration {
+        width: auto;
+        max-height: unset;
+        max-width: 50vw;
+    }
+}

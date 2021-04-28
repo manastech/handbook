@@ -1,0 +1,17 @@
+---
+title: Compensación
+---
+# Compensación
+
+> We tend to see ourselves primarily in the light of our intentions, which are invisible to others, while we see others mainly in the light of their actions, which are visible to us.<cite>John Godolphin Bennett</cite>
+
+Queremos compensarte por tu trabajo tan justamente como sea posible, y en una organización como la nuestra no podíamos dejar una decisión tan importante en manos de una única persona. En Manas, tu salario no lo decide tu jefe (no hay jefes), ni es calculado en función de una encuesta con 182 preguntas en la que las demás personas de tu euipo te califican del 1 al 5.
+
+Los salarios en Manas se calculan como la suma de 4 componentes:
+
+1. El **componente de salario básico**: acompaña el [costo de vida](https://airtable.com/shrOSKOOWT3GyLdlR/tblrRXSvO4swGmleE) en la capital del país donde vivís, y se calcula como una función del alquiler + servicios, comida y transporte.
+2. El **componente de competencias**: este componente da cuenta de tus capacidades profesionales, de acuerdo a nuestra [rúbrica de competencias](https://rubric.manas.tech/), que describe dichas capacidades individuales en diferentes áreas, técnica, organización, habilidades interpersonales, etc., y los correspondientes comportamientos esperables asociados, en una escala de dominio para cada área. Esta escala de dominio es reflejada en una [escala de multiplicadores salariales](https://airtable.com/shrHW4tHVmrXveHyQ/tblXdlPKUEfc3eLKs). Cuando incorporamos nuevas personas al equipo, solemos ser un poco más conservadores con los milestones que les asignamos, dado que estos no pueden echarse atrás. Cualquiera puede pedir una reevaluación de sus competencias, en cualquier momento.
+3. El **componente de accountability** (a.k.a. [Rol & Responsabilidades](https://airtable.com/shrOu3cg5ErVOMLMz/tblIKC6vHixhGASQK)): depende del rol que desempeñes; puede fluctuar ya que permitimos que las personas decidan si quieren ser contribuyentes individuales durante un tiempo, empezar o dejar de coordinar equipos, etc.
+4. El **componente de peer-review**: este componente busca descentralizar las decisiones sobre el salario y dar cuenta de cosas que no son fácilmente medibles, como tu actitud, performance, sentido del humor y cómo otras personas en Manas sienten que es trabajar con vos. El mecanismo es simple: todas las personas en Manas disponen de un porcentaje del monto total de dinero disponible para aumentos salariales, y deciden cómo distribuir ese monto entre todas las otras personas en la organización. Hacemos lo mismo en 3 o 4 rondas, y el monto que te asignaron, se incorpora a tu salario desde ese momento en adelante. El componente de peer-review es el único que no se mantiene de un periodo al otro; se resetea a 0. Eso significa que, si todos los otros componentes permanecen igual, y la asignación que recibís de peer-review es menor que en el periodo anterior, tu salario permanece inalterado; en ninguna situación bajamos los salarios (a menos que decidas cambiar de rol o trabajar menos horas).
+
+La suma de estos 4 componentes determina tu salario full-time, en dólares estadounidenses, y asumiendo un contrato legal en relación de dependencia a tiempo completo. Si decidís [trabajar menos de 40 horas por semana](https://airtable.com/shrEIEz6rhcwpS1Oz), ese monto se ajusta correspondientemente. Para las personas bajo contrato de prestación de servicios, su salario se multiplica por 1.48, debido a los costos que Manas se ahorra teníendolos como contratistas y les transfiere ese monto directamente.

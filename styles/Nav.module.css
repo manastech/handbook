@@ -1,0 +1,85 @@
+.nav {
+    font-size: 14px;
+    position: sticky;
+    top: 0;
+    border-right: 1px rgba(0, 0, 0, 0.1) solid;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.nav a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 42px;
+    text-decoration: none;
+    color: #999;
+    transition: background-color 0.5s;
+}
+
+.nav a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.current {
+    border-right: 4px black solid;
+}
+
+.current a {
+    color: black;
+}
+
+.header {
+    height: 0;
+    display: none;
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait), only screen and (max-width: 840px) and (orientation: landscape) {
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-right: unset;
+        height: 48px;
+        z-index: 1;
+        transition: all 0.5s;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        overflow: hidden;
+    }
+
+    .nav.open {
+        height: 100vh;
+        overflow: scroll;
+    }
+
+    .nav.open .header .icon {
+        content: url(/icons/close.svg);
+    }
+
+    .header {
+        display: flex;
+        position: sticky;
+        top: 0;
+        align-items: center;
+        height: 48px;
+        font-weight: 700;
+        padding: 12px;
+        background-color: white;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+
+    .header .icon {
+        content: url(/icons/menu.svg);
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+    }
+}
+
+@media print {
+    .nav {
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "handbook",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "frontmatter-markdown-loader": "^3.6.1",
+    "gray-matter": "^4.0.2",
+    "next": "10.0.0",
+    "raw-loader": "^4.0.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-markdown": "^5.0.2",
+    "remark-external-links": "^8.0.0",
+    "remark-footnotes": "^3.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-react": "^8.0.0"
+  }
+}

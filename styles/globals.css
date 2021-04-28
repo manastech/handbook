@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Lato;
+  font-size: 24px;
+  scroll-snap-type: y proximity;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  grid-column: 2;
+  scroll-snap-align: start;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 0 0 0;
+}
+
+section p,
+section li {
+  font-weight: 300;
+  line-height: 36px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 60px;
+  margin-block-start: 1em;
+  margin-block-end: 0.5em;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 48px;
+  margin-block-start: 1em;
+  margin-block-end: 0.5em;
+}
+
+blockquote {
+  font-weight: 300;
+  color: #999;
+  font-size: 36px;
+  position: relative;
+  margin-inline-start: 120px;
+  margin-inline-end: 120px;
+}
+
+blockquote p {
+  margin: 0;
+  line-height: 48px;
+}
+
+blockquote p:before {
+  content: '\201F';
+  position: absolute;
+  top: 36px;
+  left: -60px;
+  font-size: 120px;
+  color: black;
+  opacity: 0.1;
+}
+
+blockquote cite {
+  margin-top: 24px;
+  display: block;
+  font-size: 24px;
+  text-align: right;
+}
+
+blockquote cite:before {
+  content: '\2014'
+}
+
+pre {
+  padding: 48px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  overflow-x: scroll;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0 4px;
+  border-radius: 2px;
+}
+
+pre code {
+  font-size: 18px;
+  line-height: 24px;
+  background-color: unset;
+}
+
+#legal {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  grid-template-rows: auto auto auto 1fr;
+  column-gap: 12px;
+  row-gap: 12px;
+  width: 50%;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#legal img {
+  width: 24px;
+  height: 24px;
+  opacity: 0.25;
+}
+
+#legal img.main {
+  opacity: 1;
+}
+
+#cover {
+  height: calc(100vh - 48px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#picture {
+  width: auto;
+  height: 75%;
+}
+
+#logo {
+  height: 72px;
+  margin: 30px 0 60px 0;
+}
+
+#print {
+  display: none;
+}
+
+#blueprints {
+  font-weight: 300;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+#blueprints img {
+  padding: 72px 0;
+  max-height: 100vh;
+}
+
+#blueprints .legend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+#blueprints .legend div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  border: 2px rgba(0, 0, 0, 0.1) solid;
+  border-radius: 50%;
+}
+
+#blueprints a {
+  color: black;
+}
+
+#github {
+  margin-top: 48px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  align-items: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  border: 2px rgba(0, 0, 0, 0.1) solid;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 8px 12px;
+  transition: all 0.25s;
+}
+
+#github:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+#github:before {
+  width: 24px;
+  height: 24px;
+  content: url(/icons/github.svg);
+  margin-right: 6pt;
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait), only screen and (max-width: 840px) and (orientation: landscape) {
+
+  html,
+  body {
+    font-size: 18px;
+  }
+
+  section p,
+  section li {
+    line-height: 24px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-block-end: 0;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-block-end: 0;
+  }
+
+  blockquote {
+    font-size: 24px;
+    margin-inline-start: 36px;
+    margin-inline-end: 36px;
+  }
+
+  blockquote p {
+    margin: 0;
+    line-height: 30px;
+  }
+
+  blockquote p:before {
+    font-size: 72px;
+    top: 20px;
+    left: -36px;
+  }
+
+  blockquote cite {
+    font-size: 18px;
+  }
+
+  code {
+    font-size: 16px;
+  }
+
+  pre code {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #legal {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    grid-template-rows: auto auto auto 1fr;
+    column-gap: 12px;
+    row-gap: 12px;
+    width: unset;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  #legal img {
+    width: 24px;
+    height: 24px;
+    opacity: 0.25;
+  }
+
+  #legal img.main {
+    opacity: 1;
+  }
+  
+  #picture {
+    width: 90%;
+  }
+  
+  #logo {
+    height: 48px;
+    margin: 60px 0 60px 0;
+  }
+}
+
+@media print {
+
+  @page {
+    size: A4;
+    margin: 48pt 48pt 72pt 48pt;
+  }
+
+  html,
+  body {
+    font-size: 14pt;
+    scroll-snap-type: unset;
+  }
+
+  h1, h2, h3, h4, h5, h6, section, blockquote, pre, img {
+    display: block;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+
+  h1 {
+    page-break-before: always;
+  }
+
+  #blueprints {
+    page-break-inside: avoid;
+  }
+
+  section {
+    padding: 48pt 0 0 0;
+    min-height: unset;
+  }
+
+  section p,
+  section li {
+    line-height: 18pt;
+    page-break-inside: avoid;
+  }
+
+  h1 {
+    font-size: 30pt;
+    line-height: 42pt;
+    margin-top: 0;
+
+  }
+
+  h2 {
+    font-size: 24pt;
+    line-height: 30pt;
+    margin-top: 0;
+  }
+
+  h3, h4, h5, h6 {
+    margin-top: 2em;
+    margin-bottom: 0;
+  }
+
+  blockquote {
+    font-size: 24px;
+    margin-inline-start: 72pt;
+    margin-inline-end: 72pt;
+  }
+
+  blockquote p {
+    line-height: 36px;
+  }
+
+  blockquote p:before {
+    top: 22pt;
+    left: -42pt;
+    font-size: 78pt;
+  }
+
+  blockquote cite {
+    margin-top: 18pt;
+    font-size: 18pt;
+  }
+
+  pre {
+    border: 1pt black solid;
+    background-color: unset;
+    padding: 24pt;
+    border-radius: 2pt;
+  }
+
+  code {
+    font-size: 10pt;
+    border: 1pt black solid;
+    background-color: unset;
+  }
+
+  pre code {
+    font-size: 12px;
+    line-height: 18pt;
+    border: unset;
+  }
+
+   #legal {
+    grid-template-columns: 24pt 1fr;
+    column-gap: 12pt;
+    row-gap: 12pt;
+    font-size: 12pt;
+    line-height: 18pt;
+  }
+
+  #legal img {
+    width: 24pt;
+    height: 24pt;
+  }
+
+
+  #picture {
+    width: 75%;
+  }
+  
+  #logo {
+    height: 48pt;
+    margin: 0 0 120pt 0;
+  }
+
+  #print {
+    display: flex;
+    font-size: 10pt;
+    margin-top: 120pt;
+    align-items: center;
+  }
+
+  #print:before {
+    content: url(/icons/eco.svg);
+    margin-right: 6pt;
+  }
+}
+
+ul,
+ol {
+  margin-bottom: 12px;
+  margin-inline-start: 2em;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+/* 
+
+section sup a {
+  color: #999;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+section sup a:hover {
+  color: black;
+}
+
+footer {
+  margin-top: auto;
+  padding: 30px 0;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #999;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  transition: all 0.5s;
+}
+*/
