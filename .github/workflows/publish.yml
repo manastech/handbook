@@ -50,7 +50,7 @@ jobs:
         path: broken-links.log
 
     - name: Generate version file
-      run: echo "$GITHUB_SHA ($GITHUB_RUN_ID)" > out/VERSION
+      run: echo "$GITHUB_SHA (#$GITHUB_RUN_NUMBER)" > out/VERSION
 
     - name: Setup AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
