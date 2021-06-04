@@ -1,0 +1,60 @@
+name: Publish site
+
+on:
+  push:
+    branches:
+      - master
+      - feature/github-actions
+
+jobs:
+  build-deploy:
+    name: Build & deploy
+    runs-on: ubuntu-20.04
+    env:
+      LANG: C.UTF-8
+
+    steps:
+    - name: Checkout branch
+      uses: actions/checkout@v2
+    - name: Set up NodeJS
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Install dependencies
+      run: yarn install --production --non-interactive --no-progress
+    - name: Build the site
+      run: yarn export
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.5
+    - name: Start web server
+      working-directory: ./out
+      run: |
+        python -m http.server &
+        sleep 5 &&
+        curl http://localhost:8000 -I
+
+    - name: Check for broken links
+      run: |
+        curl http://localhost:8000 -I &&
+        wget -r -l8000 --spider -e robots=off --reject-regex='\/&$' -D localhost http://localhost:8000 -o broken-links.log
+    - name: Upload broken links log as artifact
+      uses: actions/upload-artifact@v2
+      if: failure()
+      with:
+        name: broken-links
+        path: broken-links.log
+
+    - name: Generate version file
+      run: echo "$GITHUB_SHA ($GITHUB_RUN_ID)" > out/VERSION
+
+    - name: Setup AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+    - name: Deploy the site
+      run: aws s3 sync ./out/ s3://handbook.manas.tech
