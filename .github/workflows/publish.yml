@@ -60,4 +60,4 @@ jobs:
         aws-region: us-east-1
 
     - name: Deploy the site
-      run: aws s3 sync ./out/ s3://handbook.manas.tech
+      run: aws s3 sync --acl public-read ./out/ s3://handbook.manas.tech
