@@ -22,6 +22,8 @@ jobs:
         node-version: '14'
     - name: Install dependencies
       run: yarn install --production --non-interactive --no-progress
+    - name: Disable next.js telemetry
+      run: yarn run next telemetry disable
     - name: Build the site
       run: yarn export
 
