@@ -1,4 +1,4 @@
-import styles from '../styles/illustration.module.css'
+import styles from '../styles/Illustration.module.css'
 
 function Illustration({src}) {
 
