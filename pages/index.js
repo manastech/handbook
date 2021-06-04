@@ -9,6 +9,7 @@ function Index({languages}) {
     <>
       <Head>
         <title>Manas handbook</title>
+        <link rel="icon" href="/favicon.png" type="image/x-icon"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
       </Head>
       <Handbook languages={languages}></Handbook>
