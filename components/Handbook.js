@@ -16,12 +16,6 @@ function Handbook({languages}) {
     const [currentSection, setCurrentSection] = useState()
     const [currentLang, setCurrentLang] = useState('en')
 
-    const scrollTo = (section) => {
-        section.ref.scrollIntoView({
-            block: 'start',
-        })
-    }
-
     const handleLang = (lang) => {
         setCurrentLang(lang)
     }
@@ -54,7 +48,7 @@ function Handbook({languages}) {
     const contents = languages[currentLang]
     return (
         <div className={styles.handbook}>
-            <Nav currentSection={currentSection} contents={contents} scrollTo={scrollTo}></Nav>
+            <Nav currentSection={currentSection} contents={contents}></Nav>
             <LangSelector currentLang={currentLang} languages={Object.keys(languages)} handleLang={handleLang}></LangSelector>
             {contents.map((section, i) => (
                 <section key={i} id={section.path} ref={ref => section.ref = ref}>

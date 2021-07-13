@@ -8,6 +8,7 @@ body {
   font-family: Lato;
   font-size: 24px;
   scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
 }
 
 * {

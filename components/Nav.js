@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
 import styles from '../styles/Nav.module.css'
 
-function Nav({ currentSection, contents, scrollTo }) {
+function Nav({ currentSection, contents }) {
 
     let container, header
     const [menu, showMenu] = useState(false);
@@ -11,8 +11,6 @@ function Nav({ currentSection, contents, scrollTo }) {
     }
 
     useEffect(() => {
-        //error on lang change
-
         if(currentSection && currentSection.nav) {
             if(currentSection.nav.offsetTop < container.scrollTop + header.clientHeight) {
                 container.scrollTo({
@@ -26,7 +24,8 @@ function Nav({ currentSection, contents, scrollTo }) {
                 })
             }
         }
-    }, [currentSection]);
+    }, [currentSection])
+
     return (
         <nav ref={ref => container = ref} className={`${styles.nav} ${menu? styles.open : ''}`}>
             <div ref={ref => header = ref} className={styles.header} onClick={handleClick}>
@@ -34,11 +33,11 @@ function Nav({ currentSection, contents, scrollTo }) {
                 <span>Manas handbook</span>
             </div>
             {
-                contents.map((entry, i) => 
+                contents.map((entry, i) => (
                     <div key={i} ref={ref => entry.nav = ref} className={entry === currentSection? styles.current : null}>
-                        <a style={{paddingLeft: `${18 * entry.level}px`}} onClick={e => {handleClick(e);scrollTo(entry)}}>{entry.data.title}</a>
+                        <a href={`#${entry.path}`} style={{paddingLeft: `${18 * entry.level}px`}} onClick={handleClick}>{entry.data.title}</a>
                     </div>
-                )
+                ))
             }
         </nav>
     )
