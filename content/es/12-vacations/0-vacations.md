@@ -17,7 +17,7 @@ Se requieren cosas antes de que puedas tomarte vacaciones:
     * Si te tomás una semana desde el lunes 11 al viernes 15, deberías notificarlo el viernes 1ro.
     * Si te tomás todo Marzo, deberías notificarlo el último día de Enero.
 
-Sólo es necesario que coordines con tu equipo y avises con anticipación acerca de tus planes si no vas a estar trabajando. En ese caso, asegurate de cancelar cualquier cita que tengas en tu calendario para esas fechas, y configurá la respuesta de vacaciones de tu mail. Como aclaración administrativa, dado que legalmente necesitamos separar las vacaciones del tiempo libre, llevamos registro del [tiempo disponible de vacaciones](https://airtable.com/shrYKJpCajXFGRAbE/tblMeDnFP0hFqlder).
+Sólo es necesario que coordines con tu equipo y avises con anticipación acerca de tus planes si no vas a estar trabajando. En ese caso, asegurate de cancelar cualquier cita que tengas en tu calendario para esas fechas, y configurá la respuesta de vacaciones de tu mail. Como aclaración administrativa, dado que legalmente necesitamos separar las vacaciones del tiempo libre, llevamos registro del *[tiempo disponible de vacaciones](https://airtable.com/shrYKJpCajXFGRAbE/tblMeDnFP0hFqlder)*.
 
 Si simplemente querés cambiar de aire pero no necesitás dejar de trabajar, entonces sentite libre de hacerlo desde donde prefieras. Sólo asegurate que no haya en esas fechas ninguna reunión que requiera tu presencia física.
 

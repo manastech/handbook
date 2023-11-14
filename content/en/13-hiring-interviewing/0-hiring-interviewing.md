@@ -17,6 +17,6 @@ Once the interview process is over, everyone involved has to decide between "YES
 
 Should everyone agree to hire them, an email with an offer will be sent to the candidate. Should they accept the offer, congratulations are in order: you've closed the loop.
 
-The next steps are [onboarding](https://docs.google.com/document/d/1KoxZSdGPQy4a6cV4FofDX87-MYlm4bei7HCKtrC8VGk/edit) and project assignment. To make it easier and more fun, every new employee is assigned a buddy, who will be the leading point of contact for evacuating doubts and inquiries.
+The next steps are *[onboarding](https://docs.google.com/document/d/1KoxZSdGPQy4a6cV4FofDX87-MYlm4bei7HCKtrC8VGk/edit)* and project assignment. To make it easier and more fun, every new employee is assigned a buddy, who will be the leading point of contact for evacuating doubts and inquiries.
 
 > Alice laughed. 'There's no use trying,' she said. 'One can't believe impossible things.' I daresay you haven't had much practice,' said the Queen. 'When I was your age, I always did it for half-an-hour a day. Why, sometimes I've believed as many as six impossible things before breakfast.<cite>Carroll, Lewis. Through the Looking-Glass, and What Alice Found There.</cite>

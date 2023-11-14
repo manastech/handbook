@@ -17,6 +17,14 @@
     opacity: 1;
 }
 
+em .link {
+    font-style: normal;
+}
+
+em .link[target='_blank']:after {
+    content: url('/icons/lock.svg');
+}
+
 @media print {
     .link {
         text-decoration: unset;

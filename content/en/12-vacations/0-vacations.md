@@ -17,7 +17,7 @@ Two things are required before you can take your vacations:
     * If you're taking a week off from Monday 11th to Friday 15th, you should notify on Friday the 1st.
     * If you're taking March off you should notify on the last day of January.
 
-It's only necessary to make any arrangements about your vacation plans if you're going to stop working. In that case, make sure to cancel any appointments you have on your calendar for those dates, and set up the vacation responder for your email. On an administrative note, since we legally need to divide vacations from time off, we keep track of [available vacation time](https://airtable.com/shrYKJpCajXFGRAbE/tblMeDnFP0hFqlder).
+It's only necessary to make any arrangements about your vacation plans if you're going to stop working. In that case, make sure to cancel any appointments you have on your calendar for those dates, and set up the vacation responder for your email. On an administrative note, since we legally need to divide vacations from time off, we keep track of *[available vacation time](https://airtable.com/shrYKJpCajXFGRAbE/tblMeDnFP0hFqlder)*.
 
 If what you want is a change of scenery, but you're going to keep on working, feel free to do that anytime. As long as meetings don’t require you to be physically present, or connectivity is an issue, you can choose your location freely.
 

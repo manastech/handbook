@@ -17,7 +17,7 @@ Una vez terminado el proceso de entrevistas, las personas involucradas contestan
 
 Si la decisión es un SÍ unánime, se envía un mail a la persona con una oferta de trabajo. Si la accepta, ¡felicitaciones, se cerró el proceso!
 
-Los próximos pasos son el [onboarding](https://docs.google.com/document/d/1KoxZSdGPQy4a6cV4FofDX87-MYlm4bei7HCKtrC8VGk/edit) y la asignación a proyectos. Para que sea más fácil y divertido, a cada nueva incorporación se le asigna un buddy, que será el contacto primario para evacuar dudas e inquietudes.
+Los próximos pasos son el *[onboarding](https://docs.google.com/document/d/1KoxZSdGPQy4a6cV4FofDX87-MYlm4bei7HCKtrC8VGk/edit)* y la asignación a proyectos. Para que sea más fácil y divertido, a cada nueva incorporación se le asigna un buddy, que será el contacto primario para evacuar dudas e inquietudes.
 
 > Alicia se rió: ‘no tiene sentido intentarlo’, dijo: ‘no se puede creer en cosas imposibles’ ‘Yo mas bien diría que es cuestión de practica’ dijo la reina ‘Cuando yo era joven, practicaba todos los días durante media hora. Muchas veces llegué a creer en seis cosas imposibles antes del desayuno”.
 <cite>Carroll, Lewis. A través del espejo y lo que Alicia encontró allí</cite>

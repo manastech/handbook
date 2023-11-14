@@ -3,7 +3,7 @@ title: Legal
 ---
 <div id='legal'>
     <img class='main' src='/icons/creative-commons.svg'>
-    <span><b>Attribution-NonCommercial-ShareAlike<br>CC BY-NC-SA</b></span>
+    <span class='main'><b>Attribution-NonCommercial-ShareAlike<br>CC BY-NC-SA</b></span>
     <img src='/icons/attribution.svg'>
     <span><b>Attribution</b> &#8212 You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</span>
     <img src='/icons/non-commercial.svg'>
