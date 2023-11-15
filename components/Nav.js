@@ -11,19 +11,22 @@ function Nav({ currentSection, contents }) {
     }
 
     useEffect(() => {
-        if(currentSection && currentSection.nav) {
-            if(currentSection.nav.offsetTop < container.scrollTop + header.clientHeight) {
-                container.scrollTo({
-                    behavior: 'smooth',
-                    top: currentSection.nav.offsetTop - header.clientHeight
-                })
-            } else if(container.scrollTop + window.innerHeight < currentSection.nav.offsetTop + currentSection.nav.clientHeight ) {
-                container.scrollTo({
-                    behavior: 'smooth',
-                    top: currentSection.nav.offsetTop + currentSection.nav.clientHeight - window.innerHeight
-                })
+        const timeout = setTimeout(() => {
+            if(currentSection && currentSection.nav) {
+                if(currentSection.nav.offsetTop < container.scrollTop + header.clientHeight) {
+                    container.scrollTo({
+                        behavior: 'smooth',
+                        top: currentSection.nav.offsetTop - header.clientHeight
+                    })
+                } else if(container.scrollTop + window.innerHeight < currentSection.nav.offsetTop + currentSection.nav.clientHeight ) {
+                    container.scrollTo({
+                        behavior: 'smooth',
+                        top: currentSection.nav.offsetTop + currentSection.nav.clientHeight - window.innerHeight
+                    })
+                }
             }
-        }
+        }, 100)
+        return () => clearTimeout(timeout)
     }, [currentSection])
 
     return (
