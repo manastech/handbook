@@ -58,7 +58,7 @@ blockquote p {
 blockquote p:before {
   content: '\201F';
   position: absolute;
-  top: 36px;
+  top: -36px;
   left: -60px;
   font-size: 120px;
   color: black;
