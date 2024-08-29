@@ -14,9 +14,9 @@ jobs:
 
     steps:
     - name: Checkout branch
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: Set up NodeJS
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
         node-version: '14'
     - name: Install dependencies
@@ -27,7 +27,7 @@ jobs:
       run: yarn export
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         python-version: 3.5
     - name: Start web server
@@ -42,7 +42,7 @@ jobs:
         curl http://localhost:8000 -I &&
         wget -r -l8000 --spider -e robots=off --reject-regex='\/&$' -D localhost http://localhost:8000 -o broken-links.log
     - name: Upload broken links log as artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       if: failure()
       with:
         name: broken-links
