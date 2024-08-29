@@ -20,5 +20,8 @@
     "remark-footnotes": "^3.0.0",
     "remark-parse": "^9.0.0",
     "remark-react": "^8.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }

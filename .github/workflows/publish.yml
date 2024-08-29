@@ -26,21 +26,20 @@ jobs:
     - name: Build the site
       run: yarn export
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: 3.5
+    - name: Install dev dependencies (for testing)
+      run: yarn install --non-interactive --no-progress
+
     - name: Start web server
       working-directory: ./out
       run: |
-        python -m http.server &
+        yarn run http-server -o ./ &
         sleep 5 &&
-        curl http://localhost:8000 -I
+        curl http://localhost:8080 -I
 
     - name: Check for broken links
       run: |
-        curl http://localhost:8000 -I &&
-        wget -r -l8000 --spider -e robots=off --reject-regex='\/&$' -D localhost http://localhost:8000 -o broken-links.log
+        curl http://localhost:8080 -I &&
+        wget -r -l8080 --spider -e robots=off --reject-regex='\/&$' -D localhost http://localhost:8080 -o broken-links.log
     - name: Upload broken links log as artifact
       uses: actions/upload-artifact@v4
       if: failure()
