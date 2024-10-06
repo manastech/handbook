@@ -8,7 +8,6 @@ body {
   font-family: Lato;
   font-size: 24px;
   line-height: 1.5;
-  scroll-snap-type: y proximity;
   scroll-behavior: smooth;
 }
 
@@ -18,7 +17,6 @@ body {
 
 section {
   grid-column: 2;
-  scroll-snap-align: start;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -297,7 +295,6 @@ pre code {
   html,
   body {
     font-size: 14pt;
-    scroll-snap-type: unset;
   }
 
   h1, h2, h3, h4, h5, h6, section, blockquote, pre, img {
